@@ -1,0 +1,1741 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How are you?",
+                "What is up?",
+                "Whats new?",
+                "How is it going?",
+                "Nice to meet you",
+                "How do you do?",
+                "Yo",
+                "Howdy",
+                "What is happening?"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What do you need help with?",
+                "Greetings! How can I help you?",
+                "Hey! What can I do for you?",
+                "Good to see you! How can I assist?",
+                "Hello! What is on your mind?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Farewell",
+                "Catch you later",
+                "Take care",
+                "I am leaving",
+                "See you soon",
+                "Talk to you later",
+                "Have a good day",
+                "I will be back",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Farewell! Looking forward to our next chat!",
+                "Catch you later! Stay safe!",
+                "Take care! Talk soon!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thanks a lot",
+                "Thank you very much",
+                "Thanks for your help",
+                "I am grateful",
+                "Thank you for that",
+                "I appreciate your assistance",
+                "Thanks for everything",
+                "You are awesome",
+                "Thanks for your support"
+            ],
+            "responses": [
+                "You are welcome!",
+                "No problem! Happy to help!",
+                "I am glad I could assist!",
+                "Thank you! Your satisfaction is my priority!",
+                "I value our conversations! Let me know if you need assistance!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "I want to hear a joke",
+                "Give me a joke",
+                "Do you have a joke?",
+                "I need a laugh",
+                "Joke me",
+                "Tell me something funny",
+                "What is a good joke?",
+                "I could use some humor",
+                "Lighten the mood with a joke",
+                "Can you tell me a funny story?",
+                "What is your favorite joke?",
+                "Give me something to smile about",
+                "Share a funny joke with me",
+                "Hit me with a joke",
+                "I love jokes",
+                "Let us have a laugh",
+                "Bring on the jokes",
+                "I enjoy humor",
+                "I need something funny"
+            ],
+            "responses": [
+                "Why do not scientists trust atoms? Because they make up everything!",
+                "I told my computer I needed a break, and now it will not stop sending me to a page that says Error 404: Not Found!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "I asked the librarian if the library had any books on paranoia. She whispered, They are right behind you!",
+                "What do you call fake spaghetti? An impasta!",
+                "Why do not skeletons fight each other? They do not have the guts!",
+                "I would tell you a joke about an elevator, but it is an uplifting experience!",
+                "Why did the math book look sad? Because it had too many problems!",
+                "What did one wall say to the other wall? I will meet you at the corner!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+                "Why was the computer cold? Because it left its Windows open!",
+                "Did you hear about the claustrophobic astronaut? He just needed a little space!",
+                "Why can not you give Elsa a balloon? Because she will let it go!",
+                "I used to play piano by ear, but now I use my hands!",
+                "Why did the coffee file a police report? It got mugged!",
+                "I would tell you a chemistry joke, but I know I would not get a reaction!",
+                "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+                "Why do not oysters share their pearls? Because they are shellfish!",
+                "What do you call cheese that is not yours? Nacho cheese!",
+                "I told my dog to play dead, and now he is just lying around!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance",
+                "Help me out",
+                "I am looking for help",
+                "Can you assist?",
+                "I require support",
+                "Please help me",
+                "I need guidance",
+                "Can you help with this?",
+                "I am having trouble",
+                "Can you provide assistance?",
+                "I am stuck",
+                "I need some help",
+                "Can you help with my question?",
+                "Please assist me",
+                "I would like some help",
+                "I am looking for advice",
+                "Can you give me a hand?",
+                "I am in need of help",
+                "I need your expertise",
+                "Could you assist me?"
+            ],
+            "responses": [
+                "Of course! What do you need help with?",
+                "I am here to assist you! Please tell me your issue.",
+                "Absolutely! Let me know how I can help you.",
+                "I would be glad to help! What do you need assistance with?",
+                "Sure! Please share your query with me.",
+                "I am here for you! What can I assist you with today?",
+                "I am ready to help! Please describe your problem.",
+                "Yes! Just tell me what you need assistance with.",
+                "I can help! What is troubling you?",
+                "I am here to support you! What can I do for you?",
+                "Let me know how I can assist! I am ready to help.",
+                "Sure! Your concerns are important. What can I help with?",
+                "I am here to provide assistance! Just let me know.",
+                "Absolutely! I am eager to help with your request.",
+                "I can definitely assist! Please share your issue.",
+                "I am here to help! Let me know what you need.",
+                "Of course! Your needs are my priority. What can I do for you?",
+                "Yes! I am here to offer guidance. What do you need help with?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What is the weather like?",
+                "Tell me the weather",
+                "How is the weather today?",
+                "What is the forecast?",
+                "Will it rain today?",
+                "Is it sunny outside?",
+                "What is the temperature?",
+                "How is the weather looking?",
+                "Do I need an umbrella?",
+                "What is the weather report?",
+                "How hot is it?",
+                "Is it cold outside?",
+                "What is the weather like tomorrow?",
+                "Will it snow today?",
+                "What is the humidity level?",
+                "How windy is it today?",
+                "What should I wear today?",
+                "How is the weather in my area?",
+                "Tell me the weather for this week",
+                "What is the UV index today?",
+                "Is it a good day for a picnic?"
+            ],
+            "responses": [
+                "I am currently unable to fetch weather data. Please check a reliable weather website.",
+                "Unfortunately, I cannot provide real-time weather updates. Try a weather app or website for the latest info.",
+                "I cannot check the weather right now. Please consult your local weather service.",
+                "I do not have access to weather forecasts. Please look at a weather app for details.",
+                "I am unable to provide weather information. Please check a weather-related site for updates.",
+                "Sorry, but I cannot provide live weather updates. It is best to check a weather application."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "What is the news?",
+                "Tell me the latest news",
+                "What is happening in the world?",
+                "Give me news updates",
+                "What is trending?",
+                "Any news today?",
+                "Tell me the current events",
+                "What is the latest news?",
+                "What is in the headlines?",
+                "Share some news with me",
+                "Any breaking news?",
+                "What are the top stories?",
+                "What is going on in the news?",
+                "What are people talking about?",
+                "Can you provide news updates?",
+                "What is the latest in the world?",
+                "What news do you have?",
+                "Give me the current news",
+                "What are the news highlights?",
+                "Tell me what is new in the world?"
+            ],
+            "responses": [
+                "I cannot provide real-time news updates. Please check a reliable news website.",
+                "Unfortunately, I do not have access to live news feeds. It is best to check a news app or website for the latest information.",
+                "I am unable to fetch news articles at the moment. Please consult a news platform for updates.",
+                "Sorry, but I cannot provide current news. Try a news application for the latest updates.",
+                "I cannot access news reports right now. Please look at a news website for details."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vice_Chancellor_Office",
+            "patterns": [
+                "Who is the Vice Chancellor of PMAS-Arid Agriculture University?",
+                "Who is leading PMAS-Arid Agriculture University?",
+                "What is the Vice Chancellor's name?",
+                "What are the Vice Chancellor's responsibilities?",
+                "Contact details for the Vice Chancellor",
+                "Who is Prof. Dr. Muhammad Naeem?",
+                "Tell me about Prof. Dr. Muhammad Naeem",
+                "How do I contact the Vice Chancellor?",
+                "Email address of the Vice Chancellor?",
+                "Phone number for Vice Chancellor office",
+                "Who is Mr. Muhammad Rafique?",
+                "Contact of PS to the Vice Chancellor",
+                "Who is the PS to the Vice Chancellor?",
+                "Fax number for the Vice Chancellor office",
+                "Deputy Registrar contact details",
+                "Who is Mr. Mustafa?"
+            ],
+            "responses": [
+                "Prof. Dr. Muhammad Naeem is the Vice Chancellor of PMAS-Arid Agriculture University, Rawalpindi.",
+                "The Vice Chancellor of PMAS-Arid Agriculture University is Prof. Dr. Muhammad Naeem.",
+                "You can contact Prof. Dr. Muhammad Naeem at vc@uaar.edu.pk.",
+                "Vice Chancellor\u00e2\u20ac\u2122s contact: \n- Email: vc@uaar.edu.pk \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+                "Mr. Muhammad Rafique is the PS to the Vice Chancellor. Contact details: \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+                "The Deputy Registrar is Mr. Mustafa. Contact details: \n- Phone: +92-51-9062102 \n- Email: mustafa@uaar.edu.pk."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vice_Chancellor_Message",
+            "patterns": [
+                "What is the message from the Vice Chancellor?",
+                "Can I read the Vice Chancellor's message?",
+                "What is the Vice Chancellor's vision?",
+                "Vice Chancellor's welcome message",
+                "Message from Prof. Dr. Muhammad Naeem"
+            ],
+            "responses": [
+                "The Vice Chancellor's message: 'Welcome to PMAS-Arid Agriculture University. Our main objective is to produce high-quality Agricultural Scientists and advance our farmer community by sharing proven ideas and experiences.'"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pro_Vice_Chancellor_Office",
+            "patterns": [
+                "Who is the Pro Vice Chancellor of PMAS-Arid Agriculture University?",
+                "What are the contact details for the Pro Vice Chancellor?",
+                "How do I contact the Pro Vice Chancellor?",
+                "Phone number of Pro Vice Chancellor's office",
+                "Who is the Pro Vice Chancellor at Arid University?",
+                "What is the Pro Vice Chancellor's email address?",
+                "Fax number for the Pro Vice Chancellor",
+                "Who is the PA to the Pro Vice Chancellor?",
+                "Contact details for the PA to the Pro Vice Chancellor",
+                "Phone number of PA to the Pro Vice Chancellor",
+                "Email of PA to Pro Vice Chancellor",
+                "How to contact Muhammad Naeem?",
+                "What is the email address for the Pro Vice Chancellor?"
+            ],
+            "responses": [
+                "The Pro Vice Chancellor's office can be contacted at the following details: \n- Phone: +92-51-9292215 \n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+                "The Pro Vice Chancellor\u00e2\u20ac\u2122s office phone number is +92-51-9292215. No fax is available at the moment.",
+                "To reach the Pro Vice Chancellor, you can email at either naeem18ap@yahoo.co.uk or muhammad.naeem@uaar.edu.pk.",
+                "The PA to the Pro Vice Chancellor is Mr. Aurangzeb. You can contact him via email at maurangzeb@uaar.edu.pk or by phone at +92-51-9292215.",
+                "Mr. Aurangzeb is the Personal Assistant to the Pro Vice Chancellor. His contact details are: \n- Phone: +92-51-9292215 \n- Email: maurangzeb@uaar.edu.pk."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "University_Programs",
+            "patterns": [
+                "What programs does the university offer?",
+                "What degree programs are available?",
+                "Degree programs at PMAS-Arid Agriculture University",
+                "What courses does PMAS-Arid Agriculture University provide?",
+                "Can I study computer science at the university?",
+                "What fields of study are available?"
+            ],
+            "responses": [
+                "PMAS-Arid Agriculture University offers degree programs in Agricultural Sciences, Basic and Natural Sciences, Social Sciences, Humanities, Management Sciences, Computer Sciences, and Information Technology.",
+                "You can pursue degrees at undergraduate, graduate, and doctoral levels in a variety of fields including agronomy, horticulture, veterinary sciences, microbiology, and information technology."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pro_Vice_Chancellor_Office",
+            "patterns": [
+                "Who is the Pro Vice Chancellor of PMAS-Arid Agriculture University?",
+                "Can I get Pro Vice Chancellor's contact details?",
+                "What is the phone number of the Pro Vice Chancellor?",
+                "Pro Vice Chancellor email address?",
+                "How do I contact Prof. Dr. Muhammad Naeem?",
+                "Who is the PA to Pro Vice Chancellor?",
+                "Contact details for PA to Pro Vice Chancellor?",
+                "What is Muhammad Aurangzeb's email?",
+                "Who is Muhammad Aurangzeb and what does he do?",
+                "Pro Vice Chancellor's office contact information",
+                "How to reach the Pro Vice Chancellor's office?"
+            ],
+            "responses": [
+                "Prof. Dr. Muhammad Naeem is the Pro Vice Chancellor of PMAS-Arid Agriculture University. His contact details are:\n- Phone: 051-9292215\n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+                "You can reach the Pro Vice Chancellor's office at:\n- Phone: 051-9292215\n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+                "The Pro Vice Chancellor, Prof. Dr. Muhammad Naeem, is available for contact through his office phone at 051-9292215 and email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+                "Muhammad Aurangzeb serves as the PA to the Pro Vice Chancellor. You can contact him at:\n- Phone: +92-51-9292215\n- Email: maurangzeb@uaar.edu.pk.",
+                "If you need assistance with the Pro Vice Chancellor's office, Muhammad Aurangzeb, PA to the Pro Vice Chancellor, is available at +92-51-9292215 or via email at maurangzeb@uaar.edu.pk."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Registrar_Office",
+            "patterns": [
+                "Who is the Registrar at PMAS-Arid Agriculture University?",
+                "What are the Registrar's contact details?",
+                "How to contact Mr. Muhammad Aqeel Sultan?",
+                "What is the phone number of Registrar Mr. Muhammad Aqeel Sultan?",
+                "Registrar's email?",
+                "How to contact Muhammad Aqeel Sultan?",
+                "Who is Dr. Nazia Rafiq?",
+                "What is the role of Dr. Nazia Rafiq?",
+                "Deputy Registrar contact details?",
+                "Phone number of Dr. Nazia Rafiq?",
+                "Who is Rana Zahid Mahmood?",
+                "What does Rana Zahid Mahmood do?",
+                "Contact details for Deputy Registrar Rana Zahid Mahmood?",
+                "Who is Mirza Haseeb Baig?",
+                "What is the role of Mirza Haseeb Baig?",
+                "Contact information for Deputy Registrar (Legal) Mirza Haseeb Baig?",
+                "Who is Mr. Muhammad Shabbir?",
+                "Assistant Registrar contact details?",
+                "How to contact Mr. Muhammad Amjad Khan?",
+                "What is the email address for Muhammad Amjad Khan?",
+                "Who is Sultan Sabaktageen Nasir?",
+                "Assistant Registrar contact details?",
+                "How to contact Mr. Muhammad Irfan Anwer Khan?",
+                "Assistant Registrar Muhammad Irfan Anwer Khan contact details?",
+                "How to contact Assistant Registrar Ms. Masoomah Zainab?",
+                "Contact details for Ms. Masoomah Zainab?"
+            ],
+            "responses": [
+                "Mr. Muhammad Aqeel Sultan is the Registrar at PMAS-Arid Agriculture University. His contact details are:\n- Phone: +92-051-9292151, +92-51-9062112, +92-051-9292122\n- Email: registrar@uaar.edu.pk.",
+                "The Registrar office can be reached through:\n- Phone: +92-051-9292151, +92-51-9062112, +92-051-9292122\n- Fax: +92-051-9292124\n- Email: registrar@uaar.edu.pk.",
+                "Dr. Nazia Rafiq serves as the Deputy Registrar-I. Her contact details are:\n- Phone: +92-51-9292113\n- Email: naziarafiq@uaar.edu.pk, naziarafiq@gmail.com.",
+                "Rana Zahid Mahmood is a Deputy Registrar. His contact details are:\n- Phone: +92-051-9062450\n- Email: ranazahid79@yahoo.com.",
+                "Mirza Haseeb Baig is the Deputy Registrar (Legal) and Public Information Officer. His qualification is L.L.B (Hons) Sharia & Law. You can contact him at haseeb313@uaar.edu.pk.",
+                "Mr. Muhammad Shabbir is an Assistant Registrar. His contact details are:\n- Phone: 051-9292122\n- Email: mshabbir@uaar.edu.pk.",
+                "Mr. Muhammad Amjad Khan is another Assistant Registrar. You can reach him at amjad.khan@uaar.edu.pk.",
+                "Sultan Sabaktageen Nasir is an Assistant Registrar, though his contact details are not provided.",
+                "Mr. Muhammad Irfan Anwer Khan is also an Assistant Registrar. His contact details are:\n- Phone: 051-9292151\n- Email: ranairfan@uaar.edu.pk.",
+                "Ms. Masoomah Zainab is an Assistant Registrar. Her email is masoomahzainab@uaar.edu.pk."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Registrar_Office_Staff",
+            "patterns": [
+                "Who are the staff members in the Registrar's office?",
+                "List of staff working in the Registrar's office?",
+                "Who is the Deputy Registrar at PMAS-Arid Agriculture University?",
+                "Can you list all the Assistant Registrars?",
+                "Who handles legal matters in the Registrar's office?",
+                "Who is responsible for public information in the Registrar's office?",
+                "What is the role of Deputy Registrar (Legal)?",
+                "How many Deputy Registrars are there?",
+                "Who works in legal and public information roles in the university?"
+            ],
+            "responses": [
+                "The staff in the Registrar's office include:\n- Mr. Muhammad Aqeel Sultan (Registrar)\n- Dr. Nazia Rafiq (Deputy Registrar-I)\n- Rana Zahid Mahmood (Deputy Registrar)\n- Mirza Haseeb Baig (Deputy Registrar, Legal/Public Information Officer)\n- Mr. Muhammad Shabbir (Assistant Registrar)\n- Mr. Muhammad Amjad Khan (Assistant Registrar)\n- Sultan Sabaktageen Nasir (Assistant Registrar)\n- Mr. Muhammad Irfan Anwer Khan (Assistant Registrar)\n- Ms. Masoomah Zainab (Assistant Registrar).",
+                "The Registrar's office consists of several staff members, including Mr. Muhammad Aqeel Sultan as Registrar, and Deputy Registrars like Dr. Nazia Rafiq, Rana Zahid Mahmood, and Mirza Haseeb Baig who handles legal and public information duties.",
+                "The university's Registrar office has multiple Deputy and Assistant Registrars. Deputy Registrars include Dr. Nazia Rafiq, Rana Zahid Mahmood, and Mirza Haseeb Baig (Legal/Public Information). Assistant Registrars include Mr. Muhammad Shabbir, Mr. Muhammad Amjad Khan, Sultan Sabaktageen Nasir, Mr. Muhammad Irfan Anwer Khan, and Ms. Masoomah Zainab.",
+                "Mirza Haseeb Baig is the Deputy Registrar responsible for legal matters and also serves as the Public Information Officer at PMAS-Arid Agriculture University."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pro_Vice_Chancellor_Office_Overview",
+            "patterns": [
+                "What is the Pro Vice Chancellor's role at PMAS-Arid Agriculture University?",
+                "Can you explain the Pro Vice Chancellor's office?",
+                "What responsibilities does the Pro Vice Chancellor have?",
+                "Who works in the Pro Vice Chancellor's office?",
+                "What is the Pro Vice Chancellor's job?"
+            ],
+            "responses": [
+                "The Pro Vice Chancellor, Prof. Dr. Muhammad Naeem, plays a crucial role at PMAS-Arid Agriculture University by assisting the Vice Chancellor in executing academic and administrative duties. The Pro Vice Chancellor works to ensure the smooth functioning of academic departments and the university's operations.",
+                "Prof. Dr. Muhammad Naeem is the Pro Vice Chancellor at PMAS-Arid Agriculture University, and his office is assisted by Muhammad Aurangzeb, who is the PA to the Pro Vice Chancellor. Together, they handle a variety of administrative tasks to support the university's mission."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Treasurer_Office",
+            "patterns": [
+                "Who is the Treasurer at PMAS-Arid Agriculture University?",
+                "What are the Treasurer's contact details?",
+                "How to contact Ms. Marriyam Haider Bokhari?",
+                "What is the email address of the Treasurer?",
+                "What is the phone number of the Treasurer?",
+                "Can I have the contact details for the Treasurer's office?",
+                "Who is Syeda Iram Umer?",
+                "What is Syeda Iram Umer's role in the Treasurer's office?",
+                "Who is Abdul Wahid?",
+                "What are Abdul Wahid's contact details?",
+                "Who is Raja Afzaal Mehdi?",
+                "What are Raja Afzaal Mehdi's contact details?",
+                "Who is Muhammad Asad?",
+                "What are Muhammad Asad's contact details?",
+                "What is the role of Mr. Zeeshan Ahmad Khan in the Treasurer's office?",
+                "Can I have the contact details for Mr. Zeeshan Ahmad Khan?",
+                "Who is Zaeem Amjad Gadhok?",
+                "Who is Saad Ahmed Mir?",
+                "What are Saad Ahmed Mir's contact details?",
+                "How can I contact Mehr Altaf Hussain?",
+                "What is Mehr Altaf Hussain's role?",
+                "Who is Aqeel Ahmed?",
+                "What are Aqeel Ahmed's contact details?",
+                "Who is Mr. Muhammad Kashif?",
+                "Can you provide details of the Assistant Registrars in the Treasurer's office?",
+                "How many people are working in the Treasurer's office?",
+                "What does the Treasurer's office handle?",
+                "Can I get the contact information for the Treasurer office staff?",
+                "Who should I contact for financial inquiries at the university?",
+                "How can I reach out to the Treasurer's office for assistance?"
+            ],
+            "responses": [
+                "Ms. Marriyam Haider Bokhari is the Treasurer at PMAS-Arid Agriculture University. Her contact details are:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk.",
+                "The Treasurer's Office can be reached via:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk. For more inquiries, feel free to reach out!",
+                "Syeda Iram Umer is the Director in the Treasurer's office, overseeing the financial operations.",
+                "Mr. Abdul Wahid is the Deputy Registrar (TR) at PMAS-Arid Agriculture University. You can contact him at:\n- Phone: +92-51-9062120\n- Email: wahid@uaar.edu.pk.",
+                "Raja Afzaal Mehdi serves as a Deputy Registrar (TR). His contact details are:\n- Phone: +92-51-9062242\n- Email: raja.afzaal@uaar.edu.pk.",
+                "Mr. Muhammad Asad is a Deputy Registrar at the Treasurer's office. His contact information is:\n- Phone: +92-51-9062128\n- Email: mrmasad@hotmail.com.",
+                "Mr. Zeeshan Ahmad Khan is a Deputy Registrar in the Treasurer's office. For inquiries, please contact the office directly.",
+                "Zaeem Amjad Gadhok is an Assistant Registrar in the Treasurer's office. You can reach out to the Treasurer\u00e2\u20ac\u2122s office for further details.",
+                "Saad Ahmed Mir is an Assistant Registrar. You can contact him at:\n- Email: saadmir@uaar.edu.pk.",
+                "Mehr Altaf Hussain serves as an Assistant Registrar in the Treasurer's office. For inquiries, please reach out to the Treasurer's office.",
+                "Aqeel Ahmed is the Assistant Accounts Officer. His contact details are:\n- Phone: +92-300-9542066\n- Email: aqilqazi@uaar.edu.pk.",
+                "Mr. Muhammad Kashif holds the position of Assistant Registrar and Assistant Accounts Officer in the Treasurer's office. You can inquire about his responsibilities at the office.",
+                "The Treasurer's office includes various roles, including the Treasurer, Deputy Registrars, Assistant Registrars, and the Assistant Accounts Officer, ensuring smooth financial management.",
+                "For financial inquiries at PMAS-Arid Agriculture University, you can contact the Treasurer\u00e2\u20ac\u2122s office at:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk.",
+                "You can reach out to the Treasurer's office for assistance with financial matters or any inquiries related to university finances.",
+                "If you need to know about financial aid or budgeting, the Treasurer's office is the right place to contact."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Treasurer_Office_Staff",
+            "patterns": [
+                "Who works in the Treasurer's office?",
+                "List of staff members in the Treasurer's office?",
+                "Can you provide the names of the team in the Treasurer's office?",
+                "Who is the Assistant Registrar in the Treasurer's office?",
+                "Who is the Assistant Accounts Officer?",
+                "List the Deputy Registrars in the Treasurer's office?",
+                "What positions are available in the Treasurer's office?",
+                "Who is responsible for financial management at PMAS-Arid Agriculture University?"
+            ],
+            "responses": [
+                "The Treasurer's office staff includes:\n- Ms. Marriyam Haider Bokhari (Treasurer)\n- Syeda Iram Umer (Director)\n- Mr. Abdul Wahid (Deputy Registrar)\n- Raja Afzaal Mehdi (Deputy Registrar)\n- Mr. Muhammad Asad (Deputy Registrar)\n- Mr. Zeeshan Ahmad Khan (Deputy Registrar)\n- Mr. Zaeem Amjad Gadhok (Assistant Registrar)\n- Mr. Saad Ahmed Mir (Assistant Registrar)\n- Mr. Mehr Altaf Hussain (Assistant Registrar)\n- Mr. Aqeel Ahmed (Assistant Accounts Officer)\n- Mr. Muhammad Kashif (Assistant Registrar/Assistant Accounts Officer).",
+                "Staff members working in the Treasurer's office include:\n- Treasurer: Ms. Marriyam Haider Bokhari\n- Director: Syeda Iram Umer\n- Deputy Registrars: Mr. Abdul Wahid, Raja Afzaal Mehdi, Mr. Muhammad Asad, Mr. Zeeshan Ahmad Khan\n- Assistant Registrars: Mr. Zaeem Amjad Gadhok, Mr. Saad Ahmed Mir, Mr. Mehr Altaf Hussain\n- Assistant Accounts Officer: Mr. Aqeel Ahmed, Mr. Muhammad Kashif.",
+                "In the Treasurer's office, the roles are distributed among the Treasurer, Directors, Deputy Registrars, and Assistant Registrars, all contributing to financial management."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Treasurer_Office_Overview",
+            "patterns": [
+                "What is the Treasurer's role at PMAS-Arid Agriculture University?",
+                "Can you explain the Treasurer's office?",
+                "What does the Treasurer's office do?",
+                "What are the responsibilities of the Treasurer at PMAS?",
+                "How is financial management handled at the university?",
+                "Can you give an overview of the Treasurer's office?"
+            ],
+            "responses": [
+                "The Treasurer's office at PMAS-Arid Agriculture University is responsible for financial management, which includes budgeting, financial reporting, and overseeing all accounts. Ms. Marriyam Haider Bokhari leads the office, ensuring the financial operations align with the university's goals.",
+                "The Treasurer's office plays a crucial role in managing the university's finances. It is dedicated to overseeing budget allocations, monitoring expenditures, and providing financial guidance to other departments. Under the leadership of Ms. Marriyam Haider Bokhari, the office ensures proper financial control, planning, and reporting.",
+                "The responsibilities of the Treasurer include managing the university's finances, providing financial oversight, preparing budgets, and ensuring compliance with financial regulations. The Treasurer's office also collaborates with various departments to support their financial needs and goals."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "What is the history of AAUR?",
+                "Can you tell me about the university?",
+                "What is AAUR known for?",
+                "What programs are offered at AAUR?",
+                "What faculties are available at the university?",
+                "What facilities does AAUR provide?",
+                "Can you describe the location of AAUR?",
+                "What is the mission of AAUR?",
+                "What type of agriculture does AAUR focus on?",
+                "How has AAUR evolved since its establishment?",
+                "What is the significance of the Barani Commission?",
+                "How does AAUR contribute to agricultural development in Pakistan?",
+                "What makes AAUR unique compared to other universities?",
+                "How many students are enrolled at AAUR?",
+                "Who founded AAUR?",
+                "What are the primary research areas at AAUR?",
+                "Can you provide information about the university's campus?",
+                "What is the student-to-faculty ratio at AAUR?",
+                "Are there any notable alumni from AAUR?",
+                "How does AAUR support sustainable agriculture?",
+                "What types of research projects are conducted at AAUR?",
+                "What are the latest achievements of AAUR?",
+                "How does AAUR collaborate with international institutions?",
+                "What role does AAUR play in rural development?",
+                "How does AAUR engage with local farmers?",
+                "What is the vision of AAUR for the future?"
+            ],
+            "responses": [
+                "AAUR was established as Barani Agricultural College and upgraded to a university in 1994, focusing on agricultural sciences and the development of dryland regions.",
+                "The university offers undergraduate and postgraduate programs across various disciplines, including agriculture, social sciences, and engineering.",
+                "The university has multiple faculties including Agriculture, Sciences, Veterinary & Animal Sciences, and more.",
+                "AAUR features an auditorium, library, multi-storied academic blocks, and an international standard undergraduate block.",
+                "The university is located on Murree Road, Rawalpindi, close to Islamabad, in a pollution-free environment.",
+                "The mission of AAUR is to produce high-quality agricultural scientists and develop infrastructure for teaching and research in dryland regions.",
+                "AAUR primarily focuses on arid and rainfed agriculture, addressing the challenges faced by these regions.",
+                "Since its establishment, AAUR has evolved by expanding its academic programs and increasing its research output significantly.",
+                "The Barani Commission emphasized the importance of developing rainfed agriculture to ensure food security in Pakistan.",
+                "AAUR contributes to agricultural development through education, research, and outreach programs aimed at improving farming practices.",
+                "AAUR is unique due to its dedicated focus on dryland agriculture and its commitment to rural development.",
+                "Currently, AAUR enrolls over 5,000 students across various programs.",
+                "The university was founded by the Government of Punjab in response to the Barani Commission's recommendations.",
+                "The primary research areas at AAUR include agricultural sciences, environmental sciences, food technology, and biotechnology.",
+                "The university's campus includes beautiful gardens, state-of-the-art facilities, and a serene learning environment.",
+                "The student-to-faculty ratio is approximately 18:1, promoting personalized attention and support.",
+                "Notable alumni from AAUR include successful agricultural scientists, policymakers, and entrepreneurs in the field.",
+                "AAUR actively supports sustainable agriculture by researching and promoting practices that conserve resources and improve productivity.",
+                "Current research projects focus on drought-resistant crops, soil conservation techniques, and sustainable farming practices.",
+                "Recently, AAUR has achieved recognition for its innovative research in arid agriculture and sustainable practices.",
+                "AAUR collaborates with international institutions such as ICARDA and various universities for joint research and development projects.",
+                "The university plays a crucial role in rural development by conducting workshops and training sessions for local farmers.",
+                "AAUR engages with local farmers through extension services, providing them with knowledge and resources to enhance their farming methods.",
+                "The vision of AAUR is to be a leading institution in agricultural research and education, significantly impacting food security and rural development."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "admissions",
+            "patterns": [
+                "What are the admission requirements for AAUR?",
+                "How can I apply for admission?",
+                "What is the application deadline for AAUR?",
+                "Are there undergraduate programs available at AAUR?",
+                "What postgraduate programs does AAUR offer?",
+                "What documents are required for admission?",
+                "Is there an entrance test for admission to AAUR?",
+                "How can I check my admission status?",
+                "What are the eligibility criteria for undergraduate programs?",
+                "How can I apply for scholarships at AAUR?",
+                "What is the tuition fee structure at AAUR?",
+                "Are there any merit-based scholarships available?",
+                "How can international students apply to AAUR?",
+                "What is the process for transferring to AAUR from another university?",
+                "Are there any special quotas for admissions?",
+                "What are the common challenges students face during the admission process?",
+                "Can I get admission with a diploma?",
+                "How can I contact the admissions office?"
+            ],
+            "responses": [
+                "To apply for admission, you need to meet the eligibility criteria specified for each program, which usually includes a minimum percentage in previous qualifications.",
+                "You can apply online through the university's official website or visit the admissions office for more information.",
+                "The application deadline varies by program. It is advisable to check the university's official website for the latest dates.",
+                "AAUR offers a range of undergraduate programs in agriculture, engineering, social sciences, and management.",
+                "The university provides various postgraduate programs in agriculture, veterinary sciences, management sciences, and information technology.",
+                "Documents typically required for admission include educational certificates, CNIC, photographs, and a filled application form.",
+                "Yes, there is usually an entrance test for certain programs, which is designed to assess the candidates' knowledge and skills.",
+                "You can check your admission status by logging into the university's admission portal using your application number.",
+                "Eligibility criteria for undergraduate programs often include completing intermediate education with relevant subjects.",
+                "You can apply for scholarships by filling out the scholarship application form available on the university's website.",
+                "Tuition fees vary by program. Detailed information is provided on the university's official website.",
+                "Yes, AAUR offers merit-based scholarships for students who achieve outstanding academic results.",
+                "International students can apply by fulfilling specific requirements, including equivalency of their previous qualifications.",
+                "The transfer process involves submitting a transfer application along with the required documentation to the admissions office.",
+                "Yes, there are special quotas for admissions based on different criteria, including regional and gender-based quotas.",
+                "Common challenges include meeting documentation requirements and preparing for entrance tests.",
+                "Yes, students with diplomas in relevant fields can apply for admission to specific programs based on university policy.",
+                "You can contact the admissions office via email or phone, or visit them in person for assistance."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "research",
+            "patterns": [
+                "What type of research is conducted at AAUR?",
+                "How can students get involved in research activities?",
+                "Are there partnerships with other research institutions?",
+                "What are the current research projects at AAUR?",
+                "How does AAUR promote research among students?",
+                "What facilities are available for research at AAUR?",
+                "How can I apply for research grants?",
+                "Is there an opportunity for undergraduate students to participate in research?",
+                "What kind of publications do researchers from AAUR produce?",
+                "How often does AAUR hold research seminars or conferences?",
+                "Can you provide examples of successful research projects at AAUR?",
+                "What role does technology play in research at AAUR?",
+                "Are there any funding opportunities for graduate research?",
+                "How does AAUR collaborate with the agricultural industry?",
+                "What research centers exist within AAUR?",
+                "What is the impact of AAUR's research on local agriculture?",
+                "How does AAUR ensure ethical practices in research?",
+                "What support is available for faculty conducting research?",
+                "How can I access research papers published by AAUR?"
+            ],
+            "responses": [
+                "AAUR conducts research in various areas, including agricultural sciences, environmental sciences, food technology, and biotechnology.",
+                "Students can get involved in research by volunteering in faculty-led projects or enrolling in research-focused courses.",
+                "Yes, AAUR collaborates with national and international research institutions for various projects and initiatives.",
+                "Current research projects include studies on drought-resistant crops, sustainable farming practices, and soil conservation techniques.",
+                "AAUR promotes research by encouraging students to participate in research activities, providing funding, and hosting workshops.",
+                "Research facilities at AAUR include laboratories, experimental farms, and access to various agricultural technologies.",
+                "To apply for research grants, you can check the university's website for announcements and application procedures.",
+                "Yes, undergraduate students have opportunities to participate in research through internships and assistantships.",
+                "Researchers from AAUR produce publications in various journals and conferences, contributing to scientific knowledge.",
+                "AAUR holds research seminars and conferences regularly to share findings and promote collaborative research efforts.",
+                "Examples of successful research projects include the development of new crop varieties and innovative agricultural techniques.",
+                "Technology plays a crucial role in research at AAUR, including the use of precision agriculture and data analysis tools.",
+                "Yes, there are funding opportunities available for graduate research through various scholarships and grants.",
+                "AAUR collaborates with the agricultural industry to apply research findings practically and enhance productivity.",
+                "Research centers within AAUR focus on specific areas, such as soil health, crop improvement, and climate resilience.",
+                "The impact of AAUR's research is evident in improved farming practices, increased crop yields, and enhanced sustainability.",
+                "AAUR ensures ethical practices in research by adhering to guidelines set by research boards and committees.",
+                "Support for faculty conducting research includes access to funding, mentoring, and collaboration opportunities.",
+                "Research papers published by AAUR can be accessed through the university library and various online repositories."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "What is the campus environment like at AAUR?",
+                "Are there student clubs and organizations at AAUR?",
+                "How can I participate in extracurricular activities?",
+                "What are the housing facilities like for students?",
+                "Is there a student health center on campus?",
+                "What recreational facilities are available at AAUR?",
+                "How does AAUR support student mental health?",
+                "What is the student diversity like at AAUR?",
+                "Are there opportunities for volunteering at AAUR?",
+                "What kind of events are organized for students?",
+                "How can students get involved in cultural activities?",
+                "What is the academic support system like at AAUR?",
+                "How can I find a mentor at AAUR?",
+                "Are there job placement services for students?",
+                "What is the food quality like on campus?",
+                "Is transportation available for students?",
+                "How does AAUR celebrate cultural festivals?",
+                "What safety measures are in place for students on campus?",
+                "What are the best spots for studying on campus?",
+                "How can I stay updated with campus news?"
+            ],
+            "responses": [
+                "The campus environment at AAUR is friendly and supportive, promoting academic excellence and personal growth.",
+                "Yes, there are numerous student clubs and organizations focused on academics, culture, sports, and social issues.",
+                "You can participate in extracurricular activities by joining clubs, attending events, and volunteering for various programs.",
+                "AAUR offers on-campus housing with comfortable accommodations and amenities for both male and female students.",
+                "Yes, there is a health center on campus providing medical assistance, counseling, and health awareness programs.",
+                "Recreational facilities include sports fields, a gymnasium, and areas for various outdoor activities.",
+                "AAUR supports student mental health through counseling services and wellness programs focused on stress management.",
+                "The student diversity at AAUR includes individuals from various regions, cultures, and backgrounds, enriching the campus experience.",
+                "Yes, there are various volunteering opportunities organized by clubs and the university to serve the community.",
+                "AAUR organizes events such as sports competitions, cultural shows, and academic conferences to engage students.",
+                "Students can participate in cultural activities through clubs and annual festivals that celebrate diversity and traditions.",
+                "The academic support system includes tutoring services, study groups, and access to academic resources.",
+                "You can find a mentor by reaching out to faculty members or joining mentorship programs organized by the university.",
+                "Yes, there are job placement services available to assist students in finding internships and employment after graduation.",
+                "The food quality on campus is generally good, with a variety of options available in the cafeterias.",
+                "Transportation is available for students through university buses that connect the campus with nearby areas.",
+                "AAUR celebrates cultural festivals with various events, including traditional performances, food fairs, and exhibitions.",
+                "Safety measures include security personnel on campus, surveillance systems, and emergency response protocols.",
+                "Some popular spots for studying include the library, study lounges, and quiet gardens around the campus.",
+                "You can stay updated with campus news through the official university website, social media channels, and newsletters."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact AAUR?",
+                "What is the official website of AAUR?",
+                "Where is AAUR located?",
+                "Can I visit the campus?",
+                "What are the contact details for the admissions office?",
+                "How do I reach the library?",
+                "What is the phone number for AAUR?",
+                "Can I send an email to AAUR?",
+                "What are the office hours for AAUR?",
+                "Is there a social media presence for AAUR?",
+                "How can I schedule a campus tour?",
+                "What is the mailing address for AAUR?",
+                "Where can I find information about campus events?",
+                "What is the best way to get updates from AAUR?",
+                "How can I provide feedback to AAUR?"
+            ],
+            "responses": [
+                "You can contact AAUR through the official website, email, or by visiting the campus directly.",
+                "The official website of AAUR is www.aau.edu.pk.",
+                "AAUR is located on Murree Road, Rawalpindi, near Islamabad.",
+                "Yes, visitors are welcome to the campus, and guided tours can be scheduled in advance.",
+                "The admissions office can be reached at +92-51-1234567, and their email is admissions@aau.edu.pk.",
+                "The library is located at the heart of the campus, adjacent to the main administrative building.",
+                "The main phone number for AAUR is +92-51-1234567, where you can reach various departments.",
+                "Yes, you can send an email to info@aau.edu.pk for general inquiries.",
+                "The office hours for AAUR are Monday to Friday from 9 AM to 4 PM.",
+                "Yes, AAUR is active on social media platforms like Facebook, Twitter, and Instagram.",
+                "You can schedule a campus tour by contacting the admissions office or filling out a request form on the website.",
+                "The mailing address for AAUR is Murree Road, Rawalpindi, Punjab, Pakistan.",
+                "Information about campus events can be found on the university's website and through their social media channels.",
+                "You can subscribe to the university's newsletter for updates and news.",
+                "Feedback can be provided through email or the contact form available on the university's website."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "strategic_location",
+            "patterns": [
+                "Where is the university located?",
+                "Tell me about the strategic location of the university.",
+                "What is special about the location of the university?",
+                "Describe the university's location.",
+                "What are the nearby cities to the university?",
+                "How does the university's location benefit students?",
+                "What institutions are near the university?",
+                "Is the university located in a pollution-free area?",
+                "Can you tell me about the environment around the university?",
+                "What type of architecture does the university have?",
+                "What is the significance of the university's location?",
+                "How close is the university to Islamabad?",
+                "What makes the university's location unique?",
+                "Can you provide details about the location of the university?",
+                "What are the geographical advantages of the university's location?",
+                "Is the university easily accessible?",
+                "Are there any natural attractions near the university?",
+                "How does the location enhance student life?",
+                "What is the distance between the university and major cities?",
+                "What facilities are available near the university?",
+                "Can you describe the surrounding area of the university?",
+                "How does the university's location impact its programs?",
+                "What features contribute to the university's beautiful architectural design?",
+                "What type of environment surrounds the university?",
+                "Are there any notable landmarks near the university?",
+                "How does the location influence research opportunities?",
+                "What recreational activities are available near the university?"
+            ],
+            "responses": [
+                "The university is strategically located on Murree Road, near the heart of Rawalpindi and Islamabad, which are the capital cities of Pakistan.",
+                "The university building is known for its beautiful architectural design and is situated in a scenic area with a blend of old and new cultures.",
+                "The twin cities provide a pollution-free environment and are located in the picturesque Pothowar plateau, making it a serene place for education.",
+                "The university is in proximity to several key institutions, including the Pakistan Agricultural Research Council, National Agricultural Research Centre, and many more.",
+                "This central location allows the university to utilize expertise from various institutions, enhancing the quality of education and research for students.",
+                "The surrounding area features a rich blend of cultural heritage and modern development, offering a unique experience to students.",
+                "Due to its prime location, students have easy access to transportation, shopping centers, and recreational facilities.",
+                "The environment around the university is characterized by lush greenery and scenic views, creating an inspiring atmosphere for learning.",
+                "Being located close to Islamabad, the university benefits from the resources and opportunities available in the capital city.",
+                "The location fosters collaboration with nearby institutions, providing students with valuable research and internship opportunities.",
+                "The architectural design of the university reflects both contemporary and traditional influences, making it aesthetically appealing.",
+                "The proximity to natural attractions enhances students' overall experience, offering places for relaxation and exploration.",
+                "The university's location promotes a balanced lifestyle, with both academic and extracurricular activities easily accessible."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nearby_institutions",
+            "patterns": [
+                "What institutions are near the university?",
+                "Can you list the nearby research institutions?",
+                "What major institutions are close to the university?",
+                "How does the university collaborate with other institutions?",
+                "What research facilities are located around the university?",
+                "Are there any universities near AAUR?",
+                "What are the research opportunities available with nearby institutions?",
+                "How does the university utilize its proximity to other institutions?",
+                "What organizations collaborate with the university?",
+                "Can you name some local agricultural research centers?",
+                "What institutes provide resources for the university?",
+                "How does the university's location benefit its research programs?",
+                "Are there partnerships with international institutions?",
+                "What role do nearby institutions play in student education?",
+                "How often does the university collaborate with external organizations?",
+                "What benefits do students gain from the university's location near these institutions?",
+                "What are the advantages of being near the National Institute of Health?",
+                "How does the university maintain relationships with other educational institutes?",
+                "Are there internships available through collaborations with nearby institutions?"
+            ],
+            "responses": [
+                "Nearby institutions include the Pakistan Agricultural Research Council, National Agricultural Research Centre, National Institute of Health, Pakistan Museum of Natural History, and Rawalpindi Medical College.",
+                "The university collaborates with institutions like the Poultry Research Institute, Fisheries Research and Training Institute, and the International Institute for Biological Control of the Commonwealth.",
+                "The proximity to these institutions allows for collaborative research and teaching programs that enhance educational facilities.",
+                "AAUR has signed MoUs with various organizations to facilitate joint research projects and educational exchanges.",
+                "Students benefit from internships and research opportunities provided through partnerships with nearby institutions.",
+                "The university collaborates with organizations such as the Agriculture University of Hebei, China, and ICARDA, Syria, for research activities.",
+                "By being near these institutions, AAUR can leverage additional resources and expertise for better educational outcomes.",
+                "The relationships maintained with local research centers enhance the curriculum and provide students with practical experience."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mission_vision",
+            "patterns": [
+                "What is the mission of the university?",
+                "Tell me about the vision of the university.",
+                "What are the goals of the university?",
+                "How does the university plan to produce high-quality agricultural scientists?",
+                "What is the university's mandate?",
+                "What is the significance of the university's mission?",
+                "How does the university support its mission?",
+                "Can you elaborate on the university's vision?",
+                "What values guide the university's mission?",
+                "How does the university aim to bridge the income gap?",
+                "What educational approaches does the university use to achieve its goals?",
+                "How does research contribute to the university's mission?",
+                "What is the university's approach to community engagement?",
+                "How does the university envision its impact on the agricultural sector?",
+                "What long-term objectives does the university have?",
+                "How does the university measure its success in fulfilling its mission?",
+                "What initiatives are in place to support students in achieving these goals?",
+                "What partnerships does the university have to further its mission?"
+            ],
+            "responses": [
+                "The mission of the university is to produce high-quality agricultural scientists and establish a scientific infrastructure for teaching and research.",
+                "The university aims to focus on the development of dryland regions, minimizing the income gap between the rich and poor.",
+                "By enhancing education and research, the university seeks to contribute to the agricultural sector and improve the overall development of the country.",
+                "The university supports its mission through dedicated faculty, state-of-the-art facilities, and a research-informed curriculum.",
+                "The vision of the university is to be a leading institution in agricultural education, known for its contributions to sustainable development.",
+                "Values such as integrity, excellence, and innovation guide the university in its mission to serve the community.",
+                "The university engages with local communities to implement agricultural practices that benefit farmers and improve livelihoods.",
+                "Research plays a crucial role in the university's mission, providing insights and solutions to agricultural challenges faced in the region.",
+                "The long-term objectives include expanding research programs, enhancing academic offerings, and increasing outreach efforts.",
+                "The university measures its success through student achievements, research output, and community impact.",
+                "Initiatives such as scholarships, workshops, and internships support students in realizing their potential and contributing to the mission.",
+                "Partnerships with local and international organizations enhance the university's capabilities and broaden its impact on the agricultural sector."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_overview",
+            "patterns": [
+                "What is the Syndicate in the university?",
+                "Can you explain the role of the Syndicate?",
+                "What does the university Syndicate do?",
+                "What are the responsibilities of the Syndicate?",
+                "How does the Syndicate function?",
+                "What is the purpose of the university's Syndicate?",
+                "What is the importance of the Syndicate?",
+                "Why is the Syndicate established?",
+                "How does the Syndicate impact the university?",
+                "What is the decision-making role of the Syndicate?"
+            ],
+            "responses": [
+                "The Syndicate is the executive body of the University, responsible for overseeing the standard of teaching, research, and overall academic pursuits.",
+                "The Syndicate takes effective measures to raise the standard of education and exercises general supervision over the university's affairs and property.",
+                "The main responsibility of the Syndicate includes the enhancement of educational quality and the management of academic resources.",
+                "The Syndicate functions by making decisions that affect teaching and research, ensuring that the university meets its educational mandate.",
+                "The purpose of the Syndicate is to ensure organized management and to facilitate academic and research activities.",
+                "The importance of the Syndicate lies in its ability to govern and guide the university's strategic direction and policies.",
+                "The Syndicate was established to ensure effective management and governance of the university's academic and operational functions.",
+                "The Syndicate impacts the university by implementing policies that influence educational outcomes and research quality.",
+                "The decision-making role of the Syndicate involves setting academic standards and approving major university initiatives."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_structure",
+            "patterns": [
+                "What is the composition of the Syndicate?",
+                "Who are the members of the university Syndicate?",
+                "Can you list the members of the Syndicate?",
+                "What positions are included in the Syndicate?",
+                "Who is the chairman of the Syndicate?",
+                "How many members are there in the Syndicate?",
+                "What are the roles of the Syndicate members?",
+                "Who nominates the members of the Syndicate?",
+                "What is the significance of each member's role in the Syndicate?",
+                "Who represents the faculty in the Syndicate?"
+            ],
+            "responses": [
+                "The Syndicate consists of various members, including the Vice Chancellor, members nominated by the Provincial Assembly, and ex-officio members from government departments.",
+                "The members of the university Syndicate include the Vice Chancellor, Chief Justice or nominee, secretaries of agriculture and finance, and elected faculty members.",
+                "The Syndicate includes one member from the Provincial Assembly nominated by the Speaker, the Chief Justice of the Lahore High Court or his nominee, and several secretaries from different departments.",
+                "The chairman of the Syndicate is the Vice Chancellor of the university, who leads the meetings and decision-making processes.",
+                "The Syndicate comprises 11 members, including ex-officio and elected representatives from the faculty.",
+                "Each member has a unique role, with some focusing on academic governance while others represent governmental interests.",
+                "Members of the Syndicate are nominated by the Chancellor and other educational bodies to ensure diverse representation.",
+                "The significance of each member's role lies in their ability to influence university policy and governance, contributing to academic excellence.",
+                "The faculty is represented by elected members from various ranks, including Professors, Associate Professors, Assistant Professors, and Lecturers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_members",
+            "patterns": [
+                "Who is the Vice Chancellor of the university?",
+                "Who are the elected faculty members in the Syndicate?",
+                "What are the names of the Syndicate members?",
+                "Can you provide details about the members of the Syndicate?",
+                "Who are the notable members of the Syndicate?",
+                "What qualifications do the Syndicate members have?",
+                "Are there any special nominations in the Syndicate?",
+                "How are the faculty representatives elected to the Syndicate?",
+                "What is the tenure of the Syndicate members?",
+                "Who represents the administration in the Syndicate?"
+            ],
+            "responses": [
+                "The Vice Chancellor, who serves as the chairman of the Syndicate, is responsible for leading the committee's activities.",
+                "The elected faculty members include Professor Dr. Ghazala Kaukab, Associate Professor Dr. Mahmood-Ul-Hassan, Assistant Professor Dr. Fahad Masoud Wattoo, and Lecturer Hafiz Muhammad Faisal.",
+                "Notable members of the Syndicate include key faculty leaders and representatives from government departments.",
+                "The members of the Syndicate are highly qualified, with many holding advanced degrees such as PhDs and other relevant qualifications.",
+                "The Syndicate includes special nominations, such as three eminent individuals appointed by the Chancellor.",
+                "Faculty representatives in the Syndicate are elected by their peers, ensuring a democratic selection process.",
+                "The tenure of the Syndicate members varies, depending on their specific roles and the rules established by the university.",
+                "The administration is represented by the Registrar, who serves as the Secretary of the Syndicate."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_ex_officio",
+            "patterns": [
+                "What are ex-officio members in the Syndicate?",
+                "Who are the ex-officio members of the Syndicate?",
+                "Can you list the ex-officio members of the Syndicate?",
+                "What roles do ex-officio members play in the Syndicate?",
+                "How are ex-officio members selected for the Syndicate?",
+                "Are ex-officio members part of the Syndicate decision-making?",
+                "What is the significance of ex-officio members in the Syndicate?",
+                "Who represents the government in the Syndicate?",
+                "What departments are represented by ex-officio members?",
+                "Can the Chief Justice of the Lahore High Court be replaced in the Syndicate?"
+            ],
+            "responses": [
+                "Ex-officio members are individuals who hold positions in the Syndicate by virtue of their official role or title.",
+                "The ex-officio members of the Syndicate include the Chief Justice of the Lahore High Court or his nominee, the Secretary of the Department of Agriculture, the Secretary of Livestock and Dairy Development, and the Secretary of Finance.",
+                "The roles of ex-officio members in the Syndicate include providing expertise and ensuring that government interests are represented in university governance.",
+                "Ex-officio members are selected based on their official positions within government departments relevant to the university's functions.",
+                "Yes, ex-officio members participate in the decision-making process of the Syndicate, contributing their knowledge and expertise.",
+                "The significance of ex-officio members lies in their ability to link the university with government policies and resources.",
+                "The government is represented by the secretaries from relevant departments, ensuring that state interests are aligned with academic goals.",
+                "The departments represented by ex-officio members include Agriculture, Livestock and Dairy Development, and Finance.",
+                "Yes, the Chief Justice of the Lahore High Court can appoint a nominee in case of absence or conflict."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_elections",
+            "patterns": [
+                "How are the faculty members elected to the Syndicate?",
+                "What is the election process for the Syndicate members?",
+                "Who oversees the elections for the Syndicate?",
+                "How often are Syndicate elections held?",
+                "What is the eligibility criteria for faculty members to run for Syndicate elections?",
+                "Can students vote in Syndicate elections?",
+                "What is the significance of faculty elections in the Syndicate?",
+                "Are there any special conditions for nominations to the Syndicate?",
+                "How is the election result communicated to the members?",
+                "What happens if there is a tie in the Syndicate elections?"
+            ],
+            "responses": [
+                "Faculty members are elected to the Syndicate through a democratic voting process conducted among the university's teaching staff.",
+                "The election process involves nominations followed by voting, ensuring that members are chosen fairly.",
+                "The university administration oversees the elections for the Syndicate, ensuring transparency and fairness.",
+                "Syndicate elections are typically held every few years, but the exact frequency may vary according to university statutes.",
+                "Eligibility criteria for faculty members to run for elections usually include being a full-time employee with a certain academic rank.",
+                "No, students do not have voting rights in the Syndicate elections as it is restricted to faculty members.",
+                "Faculty elections are significant as they ensure that the faculty's voice and perspectives are represented in university governance.",
+                "Yes, there may be special conditions for nominations, such as requiring endorsements from other faculty members.",
+                "The election results are communicated to members via official announcements and documentation provided by the university.",
+                "In the event of a tie during the elections, procedures defined by the university statutes will determine the outcome."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "syndicate_meetings",
+            "patterns": [
+                "How often does the Syndicate meet?",
+                "What is the procedure for Syndicate meetings?",
+                "Who presides over the Syndicate meetings?",
+                "What topics are discussed in Syndicate meetings?",
+                "Can anyone attend the Syndicate meetings?",
+                "How are meeting minutes recorded in the Syndicate?",
+                "What is the agenda-setting process for Syndicate meetings?",
+                "What happens if a member cannot attend a Syndicate meeting?",
+                "Are the decisions made in Syndicate meetings public?",
+                "How is transparency maintained in Syndicate meetings?"
+            ],
+            "responses": [
+                "The Syndicate typically meets several times a year to discuss key university issues and policies.",
+                "The procedure for Syndicate meetings involves setting an agenda, discussing various topics, and recording minutes for future reference.",
+                "The Vice Chancellor presides over the Syndicate meetings, guiding discussions and decision-making.",
+                "Topics discussed in Syndicate meetings include academic policies, research initiatives, and resource management.",
+                "Generally, Syndicate meetings are not open to the public, but members of the university community may be invited for specific discussions.",
+                "Meeting minutes are recorded by the Secretary of the Syndicate and are maintained for accountability.",
+                "The agenda-setting process usually involves input from members and is finalized prior to the meeting.",
+                "If a member cannot attend a meeting, they may send a representative or provide their input in advance, depending on university rules.",
+                "Decisions made in Syndicate meetings may be documented and made public through official university communication channels.",
+                "Transparency is maintained by ensuring that meeting minutes are available for review and that decisions are communicated to the university community."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "academic_council_overview",
+            "patterns": [
+                "What is the Academic Council?",
+                "Can you explain the role of the Academic Council?",
+                "What does the Academic Council do?",
+                "What are the responsibilities of the Academic Council?",
+                "How does the Academic Council function?",
+                "What is the importance of the Academic Council?",
+                "Why is the Academic Council established?",
+                "How does the Academic Council impact the university?",
+                "What standards does the Academic Council set?",
+                "What areas does the Academic Council regulate?"
+            ],
+            "responses": [
+                "The Academic Council is the academic body of the University responsible for establishing standards in teaching, research, publications, and examinations.",
+                "The Council regulates and promotes the academic life of the University to ensure quality education and research.",
+                "The main responsibilities of the Academic Council include setting proper standards for teaching and research and overseeing the academic policies of the university.",
+                "The Academic Council functions by making decisions that impact the academic framework and curriculum of the university.",
+                "The importance of the Academic Council lies in its ability to maintain and enhance the quality of academic programs and research initiatives.",
+                "The Academic Council was established to ensure organized governance of academic affairs within the university.",
+                "The Academic Council impacts the university by regulating standards and practices that contribute to a robust academic environment.",
+                "The Council sets standards for teaching methodologies, research practices, and evaluation processes.",
+                "The areas regulated by the Academic Council include curriculum development, examination procedures, and academic integrity."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "academic_council_structure",
+            "patterns": [
+                "What is the composition of the Academic Council?",
+                "Who are the members of the Academic Council?",
+                "Can you list the members of the Academic Council?",
+                "What positions are included in the Academic Council?",
+                "Who is the chairman of the Academic Council?",
+                "How many members are there in the Academic Council?",
+                "What roles do members of the Academic Council play?",
+                "Who represents the faculty in the Academic Council?",
+                "Are there any special nominations in the Academic Council?",
+                "What is the significance of each member's role in the Academic Council?"
+            ],
+            "responses": [
+                "The Academic Council consists of the Vice Chancellor as the Chairman, Deans of the faculties, Directors of divisions, University Professors, Chairpersons of teaching departments, Associate Professors, and elected Assistant Professors and Lecturers.",
+                "Members of the Academic Council include the Vice Chancellor, Deans, Directors, all University Professors, Chairpersons of departments, Associate Professors, two elected Assistant Professors, two elected Lecturers, the Librarian, the Controller of Examinations, two Agricultural Scientists, and four representatives from NARC.",
+                "The members include the Vice Chancellor, Deans, Directors of divisions, Professors, Chairpersons, Associate Professors, Librarian, Controller of Examinations, and nominated Agricultural Scientists.",
+                "The chairman of the Academic Council is the Vice Chancellor, who leads the meetings and discussions.",
+                "There are multiple members in the Academic Council, including various academic leaders and representatives from different departments.",
+                "Each member plays a unique role, contributing to decision-making and ensuring diverse perspectives in academic governance.",
+                "Faculty representation in the Academic Council is ensured through the inclusion of Professors, Associate Professors, and elected members.",
+                "Yes, the Chancellor nominates two Agricultural Scientists to serve on the Academic Council.",
+                "The significance of each member's role lies in their expertise and ability to influence academic policies and practices."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "academic_council_members",
+            "patterns": [
+                "Who are the members of the Academic Council?",
+                "Can you provide details about the members of the Academic Council?",
+                "What qualifications do the members of the Academic Council have?",
+                "Who represents the Assistant Professors in the Academic Council?",
+                "Who are the nominated Agricultural Scientists in the Academic Council?",
+                "Who is the Registrar in the Academic Council?",
+                "Can you list the elected Assistant Professors and Lecturers?",
+                "What roles do the Deans play in the Academic Council?",
+                "What is the role of the Controller of Examinations in the Academic Council?",
+                "Who is the Librarian in the Academic Council?"
+            ],
+            "responses": [
+                "The members of the Academic Council include the Vice Chancellor, Deans, Directors, Professors, Chairpersons, Associate Professors, and elected Assistant Professors and Lecturers.",
+                "Details about the members include the Vice Chancellor, Deans, Professors, Chairpersons, and the elected Assistant Professors: Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq, as well as Lecturers Ms. Sabeeqa Usman Malik and Mr. Muhammad Adnan Riaz.",
+                "Members of the Academic Council typically have advanced degrees and significant experience in their fields of study.",
+                "The Assistant Professors represented in the Academic Council include Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq.",
+                "The Chancellor nominates two Agricultural Scientists, but specific names can vary based on nominations.",
+                "The Registrar serves as the Member/Secretary of the Academic Council, responsible for recording minutes and managing documentation.",
+                "The elected Assistant Professors include Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq, while the Lecturers are Ms. Sabeeqa Usman Malik and Mr. Muhammad Adnan Riaz.",
+                "The Deans play a critical role by representing their faculties and contributing to academic discussions and decisions.",
+                "The Controller of Examinations oversees examination policies and procedures, ensuring academic integrity in assessments.",
+                "The Librarian contributes to the Academic Council by providing insights on library resources and academic support."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "academic_council_elections",
+            "patterns": [
+                "How are the Assistant Professors and Lecturers elected to the Academic Council?",
+                "What is the election process for the Academic Council members?",
+                "How often are elections held for the Academic Council?",
+                "What is the eligibility criteria for faculty members to run for Academic Council elections?",
+                "Can students participate in Academic Council elections?",
+                "What is the significance of faculty elections in the Academic Council?",
+                "How is the election result communicated to the members?",
+                "What happens if there is a tie in the Academic Council elections?",
+                "Who oversees the elections for the Academic Council?",
+                "Are there any special conditions for nominations to the Academic Council?"
+            ],
+            "responses": [
+                "Assistant Professors and Lecturers are elected by their peers from within their ranks in a democratic process.",
+                "The election process involves nominations followed by a voting process to ensure fairness and representation.",
+                "Elections for the Academic Council are held periodically, typically every few years, as defined by university regulations.",
+                "Eligibility criteria usually include being a full-time faculty member with appropriate academic qualifications.",
+                "No, students do not have the right to participate in Academic Council elections as it is limited to faculty members.",
+                "Faculty elections are significant as they ensure that the voices of various academic ranks are represented in decision-making.",
+                "Election results are communicated through official announcements made by the university administration.",
+                "In the event of a tie, procedures outlined by the university statutes will determine the outcome.",
+                "The university administration typically oversees the elections, ensuring they are conducted fairly.",
+                "Yes, there may be special conditions for nominations, such as requiring support from other faculty members."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "academic_council_meetings",
+            "patterns": [
+                "How often does the Academic Council meet?",
+                "What is the procedure for Academic Council meetings?",
+                "Who presides over the Academic Council meetings?",
+                "What topics are discussed in Academic Council meetings?",
+                "Can anyone attend the Academic Council meetings?",
+                "How are meeting minutes recorded in the Academic Council?",
+                "What is the agenda-setting process for Academic Council meetings?",
+                "What happens if a member cannot attend an Academic Council meeting?",
+                "Are the decisions made in Academic Council meetings public?",
+                "How is transparency maintained in Academic Council meetings?"
+            ],
+            "responses": [
+                "The Academic Council typically meets several times a year to discuss key academic issues and policies.",
+                "The procedure for Academic Council meetings includes setting an agenda, discussing topics, and recording minutes for documentation.",
+                "The Vice Chancellor presides over the Academic Council meetings, leading the discussions and decision-making processes.",
+                "Topics discussed in Academic Council meetings often include academic policies, curriculum development, and examination standards.",
+                "Generally, Academic Council meetings are not open to the public, but university members may be invited to specific discussions.",
+                "Meeting minutes are recorded by the Registrar and are maintained for accountability and reference.",
+                "The agenda-setting process usually involves input from members and is finalized prior to the meetings.",
+                "If a member cannot attend, they may send a representative or provide their input in advance, depending on university rules.",
+                "Decisions made in Academic Council meetings are typically documented and communicated to the university community.",
+                "Transparency is maintained by ensuring that meeting minutes are accessible for review and that decisions are communicated openly."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "selection_board_overview",
+            "patterns": [
+                "What is the Selection Board?",
+                "Can you explain the role of the Selection Board?",
+                "What does the Selection Board do?",
+                "What are the responsibilities of the Selection Board?",
+                "How does the Selection Board function?",
+                "Why is the Selection Board established?",
+                "What is the importance of the Selection Board?",
+                "How does the Selection Board recommend candidates?",
+                "What process does the Selection Board follow for applications?",
+                "What types of appointments does the Selection Board handle?"
+            ],
+            "responses": [
+                "The Selection Board considers applications received in response to advertisements and recommends suitable candidates for various appointments to the Syndicate.",
+                "The role of the Selection Board is to evaluate candidates and ensure that only qualified individuals are recommended for university positions.",
+                "The Selection Board's responsibilities include reviewing applications, conducting interviews, and making recommendations for appointments.",
+                "The Selection Board functions by analyzing applications and deliberating on candidate suitability based on predefined criteria.",
+                "The Selection Board was established to maintain high standards in the hiring process and ensure that the best candidates are selected.",
+                "The importance of the Selection Board lies in its ability to uphold the quality and integrity of university appointments.",
+                "The Selection Board recommends candidates to the Syndicate based on their qualifications, experience, and fit for the position.",
+                "The process involves receiving applications, shortlisting candidates, conducting interviews, and recommending the best fits for the roles.",
+                "The Selection Board handles appointments for various positions within the university, including faculty and administrative roles."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "selection_board_structure",
+            "patterns": [
+                "What is the composition of the Selection Board?",
+                "Who are the members of the Selection Board?",
+                "Can you list the members of the Selection Board?",
+                "What positions are included in the Selection Board?",
+                "Who is the chairman of the Selection Board?",
+                "How many members are there in the Selection Board?",
+                "What roles do members of the Selection Board play?",
+                "Who represents the Punjab Public Service Commission in the Selection Board?",
+                "What is the role of the Registrar in the Selection Board?",
+                "Are there any external members in the Selection Board?"
+            ],
+            "responses": [
+                "The Selection Board consists of the Vice Chancellor as the Chairman, Chief Justice of Lahore High Court (or a nominated judge), Chairperson of the Punjab Public Service Commission (or a nominated member), Dean of the relevant faculty, Chairperson of the relevant Teaching Department, one Syndicate member, two eminent persons, and the Registrar.",
+                "Members of the Selection Board include the Vice Chancellor, a judge from Lahore High Court, a member of the Punjab Public Service Commission, the Dean, Chairperson of the Teaching Department, and other appointed members.",
+                "The Selection Board includes various members such as the Vice Chancellor, judges, public service members, Deans, and others.",
+                "The chairman of the Selection Board is the Vice Chancellor, who leads the discussions and decision-making.",
+                "There are multiple members in the Selection Board, including legal representatives, academic leaders, and external experts.",
+                "Each member plays a unique role in evaluating candidates, providing insights based on their expertise and position.",
+                "The Chairperson of the Punjab Public Service Commission or a nominated member represents the commission in the Selection Board.",
+                "The Registrar serves as a member of the Selection Board, contributing to administrative support and documentation.",
+                "Yes, there are external members in the Selection Board, specifically the two eminent persons appointed by the Syndicate."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "selection_board_process",
+            "patterns": [
+                "How does the Selection Board process applications?",
+                "What is the application review process in the Selection Board?",
+                "How are candidates shortlisted by the Selection Board?",
+                "What criteria does the Selection Board use for selection?",
+                "How does the Selection Board conduct interviews?",
+                "What happens after the Selection Board recommends candidates?",
+                "Can candidates appeal the decisions of the Selection Board?",
+                "What role does the Syndicate play in the Selection Board process?",
+                "How long does the selection process take?",
+                "Are the decisions of the Selection Board final?"
+            ],
+            "responses": [
+                "The Selection Board processes applications by reviewing them against established criteria and evaluating candidates' qualifications.",
+                "The application review process involves examining submitted documents and determining which candidates meet the necessary qualifications.",
+                "Candidates are shortlisted based on their qualifications, experience, and alignment with the position requirements.",
+                "The Selection Board uses various criteria, including educational background, professional experience, and fit for the role.",
+                "Interviews are conducted by the Selection Board to assess candidates' suitability through direct interaction and questioning.",
+                "After recommending candidates, the Selection Board submits its findings to the Syndicate for final approval of appointments.",
+                "Candidates may have the right to appeal the Selection Board's decisions through established university channels.",
+                "The Syndicate plays a crucial role by reviewing the Selection Board's recommendations and making final decisions on appointments.",
+                "The selection process duration can vary depending on the number of applications and the complexity of the positions being filled.",
+                "Yes, decisions made by the Selection Board are generally considered final unless there are grounds for appeal as per university policy."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "selection_board_meetings",
+            "patterns": [
+                "How often does the Selection Board meet?",
+                "What is the procedure for Selection Board meetings?",
+                "Who presides over the Selection Board meetings?",
+                "What topics are discussed in Selection Board meetings?",
+                "Can anyone attend the Selection Board meetings?",
+                "How are meeting minutes recorded in the Selection Board?",
+                "What is the agenda-setting process for Selection Board meetings?",
+                "What happens if a member cannot attend a Selection Board meeting?",
+                "Are the decisions made in Selection Board meetings public?",
+                "How is transparency maintained in Selection Board meetings?"
+            ],
+            "responses": [
+                "The Selection Board typically meets as needed to review applications and make recommendations for appointments.",
+                "The procedure for Selection Board meetings includes setting an agenda, discussing candidate applications, and recording minutes for documentation.",
+                "The Vice Chancellor presides over the Selection Board meetings, leading discussions and guiding the decision-making process.",
+                "Topics discussed include application reviews, candidate evaluations, and recommendations for various appointments.",
+                "Generally, Selection Board meetings are not open to the public, but relevant university staff may be invited as needed.",
+                "Meeting minutes are recorded by the Registrar or designated administrative staff to ensure accurate documentation.",
+                "The agenda is set in advance, often including the applications to be reviewed and any relevant policies or updates.",
+                "If a member cannot attend, they may provide input in advance or send a representative if permitted by university rules.",
+                "Decisions made in Selection Board meetings are typically documented and communicated to relevant parties but may not be publicly available.",
+                "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "advanced_studies_research_overview",
+            "patterns": [
+                "What is the Advanced Studies and Research Board?",
+                "Can you explain the role of the Advanced Studies and Research Board?",
+                "What does the Advanced Studies and Research Board do?",
+                "What are the responsibilities of the Advanced Studies and Research Board?",
+                "How does the Advanced Studies and Research Board function?",
+                "What is the importance of the Advanced Studies and Research Board?",
+                "How does the board promote research in the university?",
+                "What kind of research degrees does the board consider?",
+                "What areas does the Advanced Studies and Research Board focus on?",
+                "How does the board report to university authorities?"
+            ],
+            "responses": [
+                "The Advanced Studies and Research Board advises university authorities on promoting advanced studies, publications, and research.",
+                "The role of the Advanced Studies and Research Board is to enhance the quality and scope of research and advanced studies in the university.",
+                "The board is responsible for considering and reporting on the institution of research degrees within the university.",
+                "The responsibilities of the board include advising on research initiatives, evaluating research programs, and recommending policies for advanced studies.",
+                "The Advanced Studies and Research Board functions by providing insights and recommendations to enhance the university's research environment.",
+                "The importance of the board lies in its ability to guide the university in achieving excellence in research and academic pursuits.",
+                "The board promotes research by developing policies, encouraging collaborations, and providing resources for faculty and students.",
+                "The board considers various types of research degrees, including master's and doctoral programs, to be instituted in the university.",
+                "The focus areas of the Advanced Studies and Research Board include research methodologies, academic publications, and advanced study programs.",
+                "The board reports to university authorities through formal meetings, documentation, and presentations on research developments."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "advanced_studies_research_structure",
+            "patterns": [
+                "What is the composition of the Advanced Studies and Research Board?",
+                "Who are the members of the Advanced Studies and Research Board?",
+                "Can you list the members of the Advanced Studies and Research Board?",
+                "What positions are included in the Advanced Studies and Research Board?",
+                "Who is the chairman of the Advanced Studies and Research Board?",
+                "How many members are there in the Advanced Studies and Research Board?",
+                "What roles do members of the Advanced Studies and Research Board play?",
+                "Are there external experts in the Advanced Studies and Research Board?",
+                "Who serves as the secretary for the Advanced Studies and Research Board?",
+                "What is the role of the Deans in the Advanced Studies and Research Board?"
+            ],
+            "responses": [
+                "The Advanced Studies and Research Board consists of the Vice Chancellor as the Chairman, Deans, Directors of Divisions and Institutes, Principals of Affiliated Colleges, appointed University Professors, University teachers, and experts from other institutions.",
+                "Members of the Advanced Studies and Research Board include the Vice Chancellor, Deans, Directors, college Principals, University Professors, University teachers, and external experts.",
+                "The composition of the board includes various educational leaders, faculty members, and experts, enhancing its ability to advise on advanced studies and research.",
+                "The chairman of the Advanced Studies and Research Board is the Vice Chancellor, who oversees the board's activities and meetings.",
+                "There are multiple members in the Advanced Studies and Research Board, including both internal faculty and external experts.",
+                "Each member contributes to discussions on advanced studies and research, bringing expertise from their respective fields.",
+                "Yes, the board includes five experts from sister institutions nominated by the Syndicate to provide additional insights.",
+                "The Director of Advanced Studies serves as the secretary for the board, responsible for documentation and coordination.",
+                "Deans play a critical role in the board by representing their faculties and contributing to decisions related to advanced studies and research."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "advanced_studies_research_process",
+            "patterns": [
+                "How does the Advanced Studies and Research Board process proposals?",
+                "What is the proposal review process in the Advanced Studies and Research Board?",
+                "How are research degrees evaluated by the board?",
+                "What criteria does the Advanced Studies and Research Board use for approval?",
+                "How does the board decide on research publications?",
+                "What happens after the board considers a research proposal?",
+                "How long does it take for the board to review proposals?",
+                "Can faculty appeal decisions made by the Advanced Studies and Research Board?",
+                "What role does the Syndicate play in the Advanced Studies and Research Board process?",
+                "Are the board's decisions on research degrees final?"
+            ],
+            "responses": [
+                "The Advanced Studies and Research Board processes proposals by reviewing them against established criteria and evaluating their alignment with university standards.",
+                "The proposal review process involves careful examination of research objectives, methodologies, and expected outcomes.",
+                "Research degrees are evaluated based on academic rigor, relevance to current research trends, and potential contributions to knowledge.",
+                "The board uses criteria such as feasibility, significance, and alignment with the university's mission when approving proposals.",
+                "The board decides on research publications by assessing their quality, relevance, and impact on the academic community.",
+                "After considering a research proposal, the board may recommend approval, request revisions, or reject it based on its findings.",
+                "The review duration varies based on the complexity of proposals, but the board aims to process them in a timely manner.",
+                "Faculty may have the right to appeal decisions made by the board through established university channels.",
+                "The Syndicate plays a crucial role by reviewing recommendations from the Advanced Studies and Research Board and making final decisions.",
+                "Yes, decisions made by the Advanced Studies and Research Board regarding research degrees are generally considered final unless there are grounds for appeal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "advanced_studies_research_meetings",
+            "patterns": [
+                "How often does the Advanced Studies and Research Board meet?",
+                "What is the procedure for Advanced Studies and Research Board meetings?",
+                "Who presides over the Advanced Studies and Research Board meetings?",
+                "What topics are discussed in Advanced Studies and Research Board meetings?",
+                "Can anyone attend the Advanced Studies and Research Board meetings?",
+                "How are meeting minutes recorded in the Advanced Studies and Research Board?",
+                "What is the agenda-setting process for Advanced Studies and Research Board meetings?",
+                "What happens if a member cannot attend an Advanced Studies and Research Board meeting?",
+                "Are the decisions made in Advanced Studies and Research Board meetings public?",
+                "How is transparency maintained in Advanced Studies and Research Board meetings?"
+            ],
+            "responses": [
+                "The Advanced Studies and Research Board meets as needed, often aligning with key academic deadlines and proposal submissions.",
+                "The procedure for meetings includes setting an agenda, discussing proposals and initiatives, and documenting minutes for future reference.",
+                "The Vice Chancellor typically presides over the Advanced Studies and Research Board meetings, guiding discussions and decisions.",
+                "Topics discussed may include research proposals, advancements in academic programs, and strategies for promoting research.",
+                "Generally, Advanced Studies and Research Board meetings are not open to the public, but relevant university staff may be invited.",
+                "Meeting minutes are recorded by the Director of Advanced Studies or designated administrative staff to ensure accurate documentation.",
+                "The agenda is typically set in advance, focusing on key proposals and matters needing discussion and resolution.",
+                "If a member cannot attend, they may submit their input in advance or send a representative if permitted by university rules.",
+                "Decisions made in Advanced Studies and Research Board meetings are typically documented and communicated internally but may not be publicly available.",
+                "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "finance_planning_overview",
+            "patterns": [
+                "What is the Finance and Planning Committee?",
+                "Can you explain the role of the Finance and Planning Committee?",
+                "What does the Finance and Planning Committee do?",
+                "What are the responsibilities of the Finance and Planning Committee?",
+                "How does the Finance and Planning Committee function?",
+                "What areas does the Finance and Planning Committee focus on?",
+                "How does the committee advise the Syndicate?",
+                "What is the importance of the Finance and Planning Committee?"
+            ],
+            "responses": [
+                "The Finance and Planning Committee advises the Syndicate on planning, development, finance, investments, and accounts related to the University.",
+                "The role of the Finance and Planning Committee includes providing insights and recommendations on financial matters and strategic planning for the University.",
+                "The committee is responsible for evaluating financial proposals, assessing investment opportunities, and overseeing budgetary matters.",
+                "The responsibilities of the committee include advising on budget allocations, monitoring financial performance, and planning for future developments.",
+                "The Finance and Planning Committee functions by analyzing financial data, preparing reports, and presenting recommendations to the Syndicate.",
+                "The committee focuses on areas such as financial management, resource allocation, and investment strategies for the University.",
+                "The committee advises the Syndicate by presenting financial assessments and strategic plans to support effective decision-making.",
+                "The importance of the committee lies in its role in ensuring the University's financial health and strategic growth."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "finance_planning_structure",
+            "patterns": [
+                "What is the composition of the Finance and Planning Committee?",
+                "Who are the members of the Finance and Planning Committee?",
+                "Can you list the members of the Finance and Planning Committee?",
+                "What positions are included in the Finance and Planning Committee?",
+                "Who is the chairman of the Finance and Planning Committee?",
+                "How many members are there in the Finance and Planning Committee?",
+                "What roles do members of the Finance and Planning Committee play?",
+                "Are there external nominees in the Finance and Planning Committee?",
+                "Who serves as the secretary for the Finance and Planning Committee?",
+                "What is the role of the Treasurer in the Finance and Planning Committee?"
+            ],
+            "responses": [
+                "The Finance and Planning Committee consists of the Vice Chancellor as the Chairman, a member of the Syndicate, two members from the Academic Council, two nominees of the Chancellor, the Registrar, and the Treasurer.",
+                "Members of the Finance and Planning Committee include the Vice Chancellor, Dr. Farah Naz (Syndicate member), Prof. Dr. Fayyaz-ul-Hassan, Dr. Javed Asad, Deputy Secretaries from Agriculture and Finance Departments, the Registrar, and the Treasurer.",
+                "The composition of the committee includes various university leaders and external nominees, enhancing its capability to address financial and planning matters.",
+                "The chairman of the Finance and Planning Committee is the Vice Chancellor, who oversees committee activities and meetings.",
+                "There are multiple members in the Finance and Planning Committee, ensuring a diverse representation of interests and expertise.",
+                "Each member contributes insights from their respective areas to inform the committee's decisions on financial matters.",
+                "Yes, the committee includes external nominees from the Chancellor, representing both the Agriculture Department and the Finance Department.",
+                "The Treasurer serves as the secretary for the committee, responsible for documentation and coordination of meetings.",
+                "The Treasurer plays a crucial role in financial management and reporting within the Finance and Planning Committee."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "finance_planning_process",
+            "patterns": [
+                "How does the Finance and Planning Committee process proposals?",
+                "What is the proposal review process in the Finance and Planning Committee?",
+                "How are financial investments evaluated by the committee?",
+                "What criteria does the Finance and Planning Committee use for approval?",
+                "How does the committee decide on budget allocations?",
+                "What happens after the committee considers a financial proposal?",
+                "How long does it take for the committee to review proposals?",
+                "Can faculty appeal decisions made by the Finance and Planning Committee?",
+                "What role does the Syndicate play in the Finance and Planning Committee process?",
+                "Are the committee's decisions on financial matters final?"
+            ],
+            "responses": [
+                "The Finance and Planning Committee processes proposals by reviewing them against established criteria and evaluating their alignment with the university's strategic goals.",
+                "The proposal review process involves detailed analysis of financial implications, projected outcomes, and alignment with university priorities.",
+                "Financial investments are evaluated based on feasibility, potential returns, and alignment with the university's mission.",
+                "The committee uses criteria such as cost-effectiveness, strategic alignment, and potential impact when approving financial proposals.",
+                "The committee decides on budget allocations by assessing departmental needs, strategic initiatives, and available resources.",
+                "After considering a financial proposal, the committee may recommend approval, request modifications, or reject it based on its findings.",
+                "The review duration varies based on the complexity of proposals, but the committee aims to process them efficiently.",
+                "Faculty may have the right to appeal decisions made by the committee through established university channels.",
+                "The Syndicate plays a crucial role by reviewing recommendations from the Finance and Planning Committee and making final decisions.",
+                "Yes, decisions made by the Finance and Planning Committee regarding financial matters are generally considered final unless there are grounds for appeal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "finance_planning_meetings",
+            "patterns": [
+                "How often does the Finance and Planning Committee meet?",
+                "What is the procedure for Finance and Planning Committee meetings?",
+                "Who presides over the Finance and Planning Committee meetings?",
+                "What topics are discussed in Finance and Planning Committee meetings?",
+                "Can anyone attend the Finance and Planning Committee meetings?",
+                "How are meeting minutes recorded in the Finance and Planning Committee?",
+                "What is the agenda-setting process for Finance and Planning Committee meetings?",
+                "What happens if a member cannot attend a Finance and Planning Committee meeting?",
+                "Are the decisions made in Finance and Planning Committee meetings public?",
+                "How is transparency maintained in Finance and Planning Committee meetings?"
+            ],
+            "responses": [
+                "The Finance and Planning Committee meets regularly, often aligning with key budgetary deadlines and planning cycles.",
+                "The procedure for meetings includes setting an agenda, discussing financial proposals, and documenting minutes for future reference.",
+                "The Vice Chancellor typically presides over the Finance and Planning Committee meetings, guiding discussions and decisions.",
+                "Topics discussed may include budget proposals, investment strategies, financial performance reviews, and strategic planning initiatives.",
+                "Generally, Finance and Planning Committee meetings are not open to the public, but relevant university staff may be invited.",
+                "Meeting minutes are recorded by the Treasurer or designated administrative staff to ensure accurate documentation.",
+                "The agenda is typically set in advance, focusing on key financial matters and proposals needing discussion and resolution.",
+                "If a member cannot attend, they may submit their input in advance or send a representative if permitted by university rules.",
+                "Decisions made in Finance and Planning Committee meetings are typically documented and communicated internally but may not be publicly available.",
+                "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vice_Chancellor_Office",
+            "patterns": [
+                "Who is the Vice Chancellor of PMAS-Arid Agriculture University?",
+                "Who is leading PMAS-Arid Agriculture University?",
+                "What is the Vice Chancellor's name?",
+                "What are the Vice Chancellor's responsibilities?",
+                "Can you provide the name of the Vice Chancellor?",
+                "Who is the current Vice Chancellor at Arid Agriculture University?",
+                "Contact details for the Vice Chancellor",
+                "How do I contact the Vice Chancellor?",
+                "Email address of the Vice Chancellor?",
+                "What is the phone number of the Vice Chancellor?",
+                "Who is Prof. Dr. Muhammad Naeem?",
+                "Tell me about Prof. Dr. Muhammad Naeem",
+                "Who is the Vice Chancellor of the university?",
+                "What is Prof. Dr. Muhammad Naeem's role at the university?",
+                "Can you tell me about the Vice Chancellor's office?",
+                "Vice Chancellor contact information",
+                "How do I reach the Vice Chancellor's office?",
+                "What is the office number of the Vice Chancellor?",
+                "Phone number for Vice Chancellor office",
+                "Fax number for the Vice Chancellor office",
+                "How to send a fax to the Vice Chancellor?",
+                "Who is Mr. Muhammad Rafique?",
+                "Can you give me the contact of Muhammad Rafique?",
+                "What is Mr. Muhammad Rafique's job?",
+                "Personal Secretary to the Vice Chancellor",
+                "Who is the PS to the Vice Chancellor?",
+                "How do I contact the PS to the Vice Chancellor?",
+                "What is the email of Mr. Muhammad Rafique?",
+                "Phone number of Mr. Muhammad Rafique?",
+                "Fax number for Mr. Muhammad Rafique?",
+                "Who is the Deputy Registrar?",
+                "Tell me about the Deputy Registrar of Arid Agriculture University",
+                "Contact details of Mr. Mustafa",
+                "What is Mr. Mustafa's phone number?",
+                "Who is Mr. Mustafa?",
+                "How do I contact Mr. Mustafa?",
+                "Deputy Registrar contact details",
+                "Email address of the Deputy Registrar",
+                "How to contact Mr. Mustafa?",
+                "Vice Chancellor's office email",
+                "Mr. Muhammad Rafique's role",
+                "Who can I contact at the Vice Chancellor's office?",
+                "Where is the Vice Chancellor's office located?",
+                "How can I send an email to the Vice Chancellor?"
+            ],
+            "responses": [
+                "Prof. Dr. Muhammad Naeem is the Vice Chancellor of PMAS-Arid Agriculture University, Rawalpindi.",
+                "The Vice Chancellor of PMAS-Arid Agriculture University is Prof. Dr. Muhammad Naeem.",
+                "You can contact Prof. Dr. Muhammad Naeem, the Vice Chancellor, at vc@uaar.edu.pk.",
+                "To contact the Vice Chancellor, Prof. Dr. Muhammad Naeem, you can use the following details: \n- Email: vc@uaar.edu.pk \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+                "Prof. Dr. Muhammad Naeem is leading PMAS-Arid Agriculture University, focusing on advancing agricultural education and research.",
+                "The Vice Chancellor's office at PMAS-Arid Agriculture University is headed by Prof. Dr. Muhammad Naeem.",
+                "Prof. Dr. Muhammad Naeem holds the position of Vice Chancellor and is responsible for overall leadership and strategic direction of the university.",
+                "The Vice Chancellor's office is located at PMAS-Arid Agriculture University, Rawalpindi. For contact: \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107 \n- Email: vc@uaar.edu.pk.",
+                "You can reach the Vice Chancellor, Prof. Dr. Muhammad Naeem, by email at vc@uaar.edu.pk.",
+                "For phone inquiries, the Vice Chancellor's office number is +92-51-9292104, and fax is +92-51-9292107.",
+                "Prof. Dr. Muhammad Naeem is responsible for guiding the university\u00e2\u20ac\u2122s strategic vision and ensuring its academic and administrative functions align with the institution's mission.",
+                "To send a fax to the Vice Chancellor\u00e2\u20ac\u2122s office, use the number +92-51-9292107.",
+                "Mr. Muhammad Rafique serves as the Personal Secretary (PS) to the Vice Chancellor, Prof. Dr. Muhammad Naeem.",
+                "You can contact Mr. Muhammad Rafique at the following: \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+                "Mr. Muhammad Rafique's role is to assist the Vice Chancellor in daily administrative tasks and communication with the university stakeholders.",
+                "Mr. Muhammad Rafique is the Personal Secretary (PS) to the Vice Chancellor.",
+                "The PS to the Vice Chancellor, Mr. Muhammad Rafique, can be reached at +92-51-9292104.",
+                "The fax number for Mr. Muhammad Rafique is the same as the Vice Chancellor\u00e2\u20ac\u2122s office: +92-51-9292107.",
+                "Mr. Mustafa is the Deputy Registrar at PMAS-Arid Agriculture University.",
+                "You can contact Mr. Mustafa, Deputy Registrar, at the following details: \n- Phone: +92-51-9062102 \n- Email: mustafa@uaar.edu.pk.",
+                "Mr. Mustafa manages administrative duties as the Deputy Registrar and is responsible for record keeping and university-wide coordination.",
+                "To contact Mr. Mustafa, you can email him at mustafa@uaar.edu.pk or call him at +92-51-9062102.",
+                "The Deputy Registrar of PMAS-Arid Agriculture University is Mr. Mustafa.",
+                "The email address for Mr. Mustafa, Deputy Registrar, is mustafa@uaar.edu.pk.",
+                "For general inquiries to the Deputy Registrar, Mr. Mustafa can be contacted via phone at +92-51-9062102.",
+                "The Vice Chancellor\u00e2\u20ac\u2122s office is managed by Prof. Dr. Muhammad Naeem, and Mr. Muhammad Rafique is his Personal Secretary.",
+                "To send an email to the Vice Chancellor, use vc@uaar.edu.pk.",
+                "Mr. Muhammad Rafique serves as the key point of contact for the Vice Chancellor's office and manages the communication.",
+                "The Vice Chancellor's office is located at PMAS-Arid Agriculture University, Rawalpindi, with phone and fax services available."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Vice_Chancellor_Message",
+            "patterns": [
+                "What is the message from the Vice Chancellor?",
+                "Can I read the Vice Chancellor's message?",
+                "What does the Vice Chancellor say about the university?",
+                "Vice Chancellor's vision for the university",
+                "What are the Vice Chancellor's thoughts?",
+                "What is the Vice Chancellor's welcome message?",
+                "Can you share the Vice Chancellor's message?",
+                "Message from Prof. Dr. Muhammad Naeem",
+                "What is the mission of the university according to the Vice Chancellor?",
+                "University mission from the Vice Chancellor",
+                "What does Prof. Dr. Muhammad Naeem say about the university?"
+            ],
+            "responses": [
+                "Welcome to PMAS-Arid Agriculture University, Rawalpindi. Being an Agricultural Institution, our main objective is to produce high-quality Agricultural Scientists. Therefore, we are committed to the philosophy that we advance our farmer community by sharing positive and proven ideas and experiences.",
+                "Along with Agricultural Sciences, the university offers degree programs at all levels in Basic and Natural Sciences, Social Sciences, Humanities, Management Sciences, Computer Sciences, and Information Technology.",
+                "The University seeks to make a major contribution to agricultural advancement across the country. Therefore, we are dedicated to the prosecution of research across all fields of study, believing in research culture with clear application and relevance.",
+                "With a dynamic and stimulating educational environment, our tradition is to accept challenges and to receive wisdom today, in order to achieve new things and new approaches for tomorrow.",
+                "Embracing education in its widest context, we continually strive to remain at the forefront of knowledge. We are committed to preparing our students to work, acquire skills, and enhance their capabilities that equip them adequately to live in a rapidly changing global environment."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "University_Programs",
+            "patterns": [
+                "What programs does the university offer?",
+                "Which degree programs are available at PMAS-Arid Agriculture University?",
+                "What degrees can I pursue at PMAS-Arid Agriculture University?",
+                "Degree programs at the university",
+                "What courses does PMAS-Arid Agriculture University provide?",
+                "Can I study social sciences at the university?",
+                "Does the university offer computer science programs?",
+                "What fields of study are available at PMAS-Arid Agriculture University?",
+                "Can I get a degree in agricultural sciences?",
+                "What are the academic programs at PMAS-Arid Agriculture University?"
+            ],
+            "responses": [
+                "PMAS-Arid Agriculture University offers a variety of degree programs in Agricultural Sciences, Basic and Natural Sciences, Social Sciences, Humanities, Management Sciences, Computer Sciences, and Information Technology.",
+                "Students can pursue degrees at undergraduate, graduate, and doctoral levels in various fields such as agriculture, computer science, business management, biochemistry, environmental sciences, and more.",
+                "The university offers a wide range of programs including Bachelor's, Master's, and Ph.D. degrees in subjects like agronomy, horticulture, veterinary sciences, microbiology, information technology, and economics."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

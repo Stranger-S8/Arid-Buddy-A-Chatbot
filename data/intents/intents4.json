@@ -1,0 +1,168 @@
+{
+    "intents": [
+      {
+        "tag": "syndicate_overview",
+        "patterns": [
+          "What is the Syndicate in the university?",
+          "Can you explain the role of the Syndicate?",
+          "What does the university Syndicate do?",
+          "What are the responsibilities of the Syndicate?",
+          "How does the Syndicate function?",
+          "What is the purpose of the university's Syndicate?",
+          "What is the importance of the Syndicate?",
+          "Why is the Syndicate established?",
+          "How does the Syndicate impact the university?",
+          "What is the decision-making role of the Syndicate?"
+        ],
+        "responses": [
+          "The Syndicate is the executive body of the University, responsible for overseeing the standard of teaching, research, and overall academic pursuits.",
+          "The Syndicate takes effective measures to raise the standard of education and exercises general supervision over the university's affairs and property.",
+          "The main responsibility of the Syndicate includes the enhancement of educational quality and the management of academic resources.",
+          "The Syndicate functions by making decisions that affect teaching and research, ensuring that the university meets its educational mandate.",
+          "The purpose of the Syndicate is to ensure organized management and to facilitate academic and research activities.",
+          "The importance of the Syndicate lies in its ability to govern and guide the university's strategic direction and policies.",
+          "The Syndicate was established to ensure effective management and governance of the university's academic and operational functions.",
+          "The Syndicate impacts the university by implementing policies that influence educational outcomes and research quality.",
+          "The decision-making role of the Syndicate involves setting academic standards and approving major university initiatives."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "syndicate_structure",
+        "patterns": [
+          "What is the composition of the Syndicate?",
+          "Who are the members of the university Syndicate?",
+          "Can you list the members of the Syndicate?",
+          "What positions are included in the Syndicate?",
+          "Who is the chairman of the Syndicate?",
+          "How many members are there in the Syndicate?",
+          "What are the roles of the Syndicate members?",
+          "Who nominates the members of the Syndicate?",
+          "What is the significance of each member's role in the Syndicate?",
+          "Who represents the faculty in the Syndicate?"
+        ],
+        "responses": [
+          "The Syndicate consists of various members, including the Vice Chancellor, members nominated by the Provincial Assembly, and ex-officio members from government departments.",
+          "The members of the university Syndicate include the Vice Chancellor, Chief Justice or nominee, secretaries of agriculture and finance, and elected faculty members.",
+          "The Syndicate includes one member from the Provincial Assembly nominated by the Speaker, the Chief Justice of the Lahore High Court or his nominee, and several secretaries from different departments.",
+          "The chairman of the Syndicate is the Vice Chancellor of the university, who leads the meetings and decision-making processes.",
+          "The Syndicate comprises 11 members, including ex-officio and elected representatives from the faculty.",
+          "Each member has a unique role, with some focusing on academic governance while others represent governmental interests.",
+          "Members of the Syndicate are nominated by the Chancellor and other educational bodies to ensure diverse representation.",
+          "The significance of each member's role lies in their ability to influence university policy and governance, contributing to academic excellence.",
+          "The faculty is represented by elected members from various ranks, including Professors, Associate Professors, Assistant Professors, and Lecturers."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "syndicate_members",
+        "patterns": [
+          "Who is the Vice Chancellor of the university?",
+          "Who are the elected faculty members in the Syndicate?",
+          "What are the names of the Syndicate members?",
+          "Can you provide details about the members of the Syndicate?",
+          "Who are the notable members of the Syndicate?",
+          "What qualifications do the Syndicate members have?",
+          "Are there any special nominations in the Syndicate?",
+          "How are the faculty representatives elected to the Syndicate?",
+          "What is the tenure of the Syndicate members?",
+          "Who represents the administration in the Syndicate?"
+        ],
+        "responses": [
+          "The Vice Chancellor, who serves as the chairman of the Syndicate, is responsible for leading the committee's activities.",
+          "The elected faculty members include Professor Dr. Ghazala Kaukab, Associate Professor Dr. Mahmood-Ul-Hassan, Assistant Professor Dr. Fahad Masoud Wattoo, and Lecturer Hafiz Muhammad Faisal.",
+          "Notable members of the Syndicate include key faculty leaders and representatives from government departments.",
+          "The members of the Syndicate are highly qualified, with many holding advanced degrees such as PhDs and other relevant qualifications.",
+          "The Syndicate includes special nominations, such as three eminent individuals appointed by the Chancellor.",
+          "Faculty representatives in the Syndicate are elected by their peers, ensuring a democratic selection process.",
+          "The tenure of the Syndicate members varies, depending on their specific roles and the rules established by the university.",
+          "The administration is represented by the Registrar, who serves as the Secretary of the Syndicate."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "syndicate_ex_officio",
+        "patterns": [
+          "What are ex-officio members in the Syndicate?",
+          "Who are the ex-officio members of the Syndicate?",
+          "Can you list the ex-officio members of the Syndicate?",
+          "What roles do ex-officio members play in the Syndicate?",
+          "How are ex-officio members selected for the Syndicate?",
+          "Are ex-officio members part of the Syndicate decision-making?",
+          "What is the significance of ex-officio members in the Syndicate?",
+          "Who represents the government in the Syndicate?",
+          "What departments are represented by ex-officio members?",
+          "Can the Chief Justice of the Lahore High Court be replaced in the Syndicate?"
+        ],
+        "responses": [
+          "Ex-officio members are individuals who hold positions in the Syndicate by virtue of their official role or title.",
+          "The ex-officio members of the Syndicate include the Chief Justice of the Lahore High Court or his nominee, the Secretary of the Department of Agriculture, the Secretary of Livestock and Dairy Development, and the Secretary of Finance.",
+          "The roles of ex-officio members in the Syndicate include providing expertise and ensuring that government interests are represented in university governance.",
+          "Ex-officio members are selected based on their official positions within government departments relevant to the university's functions.",
+          "Yes, ex-officio members participate in the decision-making process of the Syndicate, contributing their knowledge and expertise.",
+          "The significance of ex-officio members lies in their ability to link the university with government policies and resources.",
+          "The government is represented by the secretaries from relevant departments, ensuring that state interests are aligned with academic goals.",
+          "The departments represented by ex-officio members include Agriculture, Livestock and Dairy Development, and Finance.",
+          "Yes, the Chief Justice of the Lahore High Court can appoint a nominee in case of absence or conflict."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "syndicate_elections",
+        "patterns": [
+          "How are the faculty members elected to the Syndicate?",
+          "What is the election process for the Syndicate members?",
+          "Who oversees the elections for the Syndicate?",
+          "How often are Syndicate elections held?",
+          "What is the eligibility criteria for faculty members to run for Syndicate elections?",
+          "Can students vote in Syndicate elections?",
+          "What is the significance of faculty elections in the Syndicate?",
+          "Are there any special conditions for nominations to the Syndicate?",
+          "How is the election result communicated to the members?",
+          "What happens if there is a tie in the Syndicate elections?"
+        ],
+        "responses": [
+          "Faculty members are elected to the Syndicate through a democratic voting process conducted among the university's teaching staff.",
+          "The election process involves nominations followed by voting, ensuring that members are chosen fairly.",
+          "The university administration oversees the elections for the Syndicate, ensuring transparency and fairness.",
+          "Syndicate elections are typically held every few years, but the exact frequency may vary according to university statutes.",
+          "Eligibility criteria for faculty members to run for elections usually include being a full-time employee with a certain academic rank.",
+          "No, students do not have voting rights in the Syndicate elections as it is restricted to faculty members.",
+          "Faculty elections are significant as they ensure that the faculty's voice and perspectives are represented in university governance.",
+          "Yes, there may be special conditions for nominations, such as requiring endorsements from other faculty members.",
+          "The election results are communicated to members via official announcements and documentation provided by the university.",
+          "In the event of a tie during the elections, procedures defined by the university statutes will determine the outcome."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "syndicate_meetings",
+        "patterns": [
+          "How often does the Syndicate meet?",
+          "What is the procedure for Syndicate meetings?",
+          "Who presides over the Syndicate meetings?",
+          "What topics are discussed in Syndicate meetings?",
+          "Can anyone attend the Syndicate meetings?",
+          "How are meeting minutes recorded in the Syndicate?",
+          "What is the agenda-setting process for Syndicate meetings?",
+          "What happens if a member cannot attend a Syndicate meeting?",
+          "Are the decisions made in Syndicate meetings public?",
+          "How is transparency maintained in Syndicate meetings?"
+        ],
+        "responses": [
+          "The Syndicate typically meets several times a year to discuss key university issues and policies.",
+          "The procedure for Syndicate meetings involves setting an agenda, discussing various topics, and recording minutes for future reference.",
+          "The Vice Chancellor presides over the Syndicate meetings, guiding discussions and decision-making.",
+          "Topics discussed in Syndicate meetings include academic policies, research initiatives, and resource management.",
+          "Generally, Syndicate meetings are not open to the public, but members of the university community may be invited for specific discussions.",
+          "Meeting minutes are recorded by the Secretary of the Syndicate and are maintained for accountability.",
+          "The agenda-setting process usually involves input from members and is finalized prior to the meeting.",
+          "If a member cannot attend a meeting, they may send a representative or provide their input in advance, depending on university rules.",
+          "Decisions made in Syndicate meetings may be documented and made public through official university communication channels.",
+          "Transparency is maintained by ensuring that meeting minutes are available for review and that decisions are communicated to the university community."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  

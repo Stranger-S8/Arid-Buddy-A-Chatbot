@@ -1,0 +1,143 @@
+{
+    "intents": [
+      {
+        "tag": "academic_council_overview",
+        "patterns": [
+          "What is the Academic Council?",
+          "Can you explain the role of the Academic Council?",
+          "What does the Academic Council do?",
+          "What are the responsibilities of the Academic Council?",
+          "How does the Academic Council function?",
+          "What is the importance of the Academic Council?",
+          "Why is the Academic Council established?",
+          "How does the Academic Council impact the university?",
+          "What standards does the Academic Council set?",
+          "What areas does the Academic Council regulate?"
+        ],
+        "responses": [
+          "The Academic Council is the academic body of the University responsible for establishing standards in teaching, research, publications, and examinations.",
+          "The Council regulates and promotes the academic life of the University to ensure quality education and research.",
+          "The main responsibilities of the Academic Council include setting proper standards for teaching and research and overseeing the academic policies of the university.",
+          "The Academic Council functions by making decisions that impact the academic framework and curriculum of the university.",
+          "The importance of the Academic Council lies in its ability to maintain and enhance the quality of academic programs and research initiatives.",
+          "The Academic Council was established to ensure organized governance of academic affairs within the university.",
+          "The Academic Council impacts the university by regulating standards and practices that contribute to a robust academic environment.",
+          "The Council sets standards for teaching methodologies, research practices, and evaluation processes.",
+          "The areas regulated by the Academic Council include curriculum development, examination procedures, and academic integrity."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "academic_council_structure",
+        "patterns": [
+          "What is the composition of the Academic Council?",
+          "Who are the members of the Academic Council?",
+          "Can you list the members of the Academic Council?",
+          "What positions are included in the Academic Council?",
+          "Who is the chairman of the Academic Council?",
+          "How many members are there in the Academic Council?",
+          "What roles do members of the Academic Council play?",
+          "Who represents the faculty in the Academic Council?",
+          "Are there any special nominations in the Academic Council?",
+          "What is the significance of each member's role in the Academic Council?"
+        ],
+        "responses": [
+          "The Academic Council consists of the Vice Chancellor as the Chairman, Deans of the faculties, Directors of divisions, University Professors, Chairpersons of teaching departments, Associate Professors, and elected Assistant Professors and Lecturers.",
+          "Members of the Academic Council include the Vice Chancellor, Deans, Directors, all University Professors, Chairpersons of departments, Associate Professors, two elected Assistant Professors, two elected Lecturers, the Librarian, the Controller of Examinations, two Agricultural Scientists, and four representatives from NARC.",
+          "The members include the Vice Chancellor, Deans, Directors of divisions, Professors, Chairpersons, Associate Professors, Librarian, Controller of Examinations, and nominated Agricultural Scientists.",
+          "The chairman of the Academic Council is the Vice Chancellor, who leads the meetings and discussions.",
+          "There are multiple members in the Academic Council, including various academic leaders and representatives from different departments.",
+          "Each member plays a unique role, contributing to decision-making and ensuring diverse perspectives in academic governance.",
+          "Faculty representation in the Academic Council is ensured through the inclusion of Professors, Associate Professors, and elected members.",
+          "Yes, the Chancellor nominates two Agricultural Scientists to serve on the Academic Council.",
+          "The significance of each member's role lies in their expertise and ability to influence academic policies and practices."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "academic_council_members",
+        "patterns": [
+          "Who are the members of the Academic Council?",
+          "Can you provide details about the members of the Academic Council?",
+          "What qualifications do the members of the Academic Council have?",
+          "Who represents the Assistant Professors in the Academic Council?",
+          "Who are the nominated Agricultural Scientists in the Academic Council?",
+          "Who is the Registrar in the Academic Council?",
+          "Can you list the elected Assistant Professors and Lecturers?",
+          "What roles do the Deans play in the Academic Council?",
+          "What is the role of the Controller of Examinations in the Academic Council?",
+          "Who is the Librarian in the Academic Council?"
+        ],
+        "responses": [
+          "The members of the Academic Council include the Vice Chancellor, Deans, Directors, Professors, Chairpersons, Associate Professors, and elected Assistant Professors and Lecturers.",
+          "Details about the members include the Vice Chancellor, Deans, Professors, Chairpersons, and the elected Assistant Professors: Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq, as well as Lecturers Ms. Sabeeqa Usman Malik and Mr. Muhammad Adnan Riaz.",
+          "Members of the Academic Council typically have advanced degrees and significant experience in their fields of study.",
+          "The Assistant Professors represented in the Academic Council include Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq.",
+          "The Chancellor nominates two Agricultural Scientists, but specific names can vary based on nominations.",
+          "The Registrar serves as the Member/Secretary of the Academic Council, responsible for recording minutes and managing documentation.",
+          "The elected Assistant Professors include Dr. Zia-ur-Rehman Mashwani, Dr. Muhammad Tariq, and Dr. Zia-Ul-Haq, while the Lecturers are Ms. Sabeeqa Usman Malik and Mr. Muhammad Adnan Riaz.",
+          "The Deans play a critical role by representing their faculties and contributing to academic discussions and decisions.",
+          "The Controller of Examinations oversees examination policies and procedures, ensuring academic integrity in assessments.",
+          "The Librarian contributes to the Academic Council by providing insights on library resources and academic support."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "academic_council_elections",
+        "patterns": [
+          "How are the Assistant Professors and Lecturers elected to the Academic Council?",
+          "What is the election process for the Academic Council members?",
+          "How often are elections held for the Academic Council?",
+          "What is the eligibility criteria for faculty members to run for Academic Council elections?",
+          "Can students participate in Academic Council elections?",
+          "What is the significance of faculty elections in the Academic Council?",
+          "How is the election result communicated to the members?",
+          "What happens if there is a tie in the Academic Council elections?",
+          "Who oversees the elections for the Academic Council?",
+          "Are there any special conditions for nominations to the Academic Council?"
+        ],
+        "responses": [
+          "Assistant Professors and Lecturers are elected by their peers from within their ranks in a democratic process.",
+          "The election process involves nominations followed by a voting process to ensure fairness and representation.",
+          "Elections for the Academic Council are held periodically, typically every few years, as defined by university regulations.",
+          "Eligibility criteria usually include being a full-time faculty member with appropriate academic qualifications.",
+          "No, students do not have the right to participate in Academic Council elections as it is limited to faculty members.",
+          "Faculty elections are significant as they ensure that the voices of various academic ranks are represented in decision-making.",
+          "Election results are communicated through official announcements made by the university administration.",
+          "In the event of a tie, procedures outlined by the university statutes will determine the outcome.",
+          "The university administration typically oversees the elections, ensuring they are conducted fairly.",
+          "Yes, there may be special conditions for nominations, such as requiring support from other faculty members."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "academic_council_meetings",
+        "patterns": [
+          "How often does the Academic Council meet?",
+          "What is the procedure for Academic Council meetings?",
+          "Who presides over the Academic Council meetings?",
+          "What topics are discussed in Academic Council meetings?",
+          "Can anyone attend the Academic Council meetings?",
+          "How are meeting minutes recorded in the Academic Council?",
+          "What is the agenda-setting process for Academic Council meetings?",
+          "What happens if a member cannot attend an Academic Council meeting?",
+          "Are the decisions made in Academic Council meetings public?",
+          "How is transparency maintained in Academic Council meetings?"
+        ],
+        "responses": [
+          "The Academic Council typically meets several times a year to discuss key academic issues and policies.",
+          "The procedure for Academic Council meetings includes setting an agenda, discussing topics, and recording minutes for documentation.",
+          "The Vice Chancellor presides over the Academic Council meetings, leading the discussions and decision-making processes.",
+          "Topics discussed in Academic Council meetings often include academic policies, curriculum development, and examination standards.",
+          "Generally, Academic Council meetings are not open to the public, but university members may be invited to specific discussions.",
+          "Meeting minutes are recorded by the Registrar and are maintained for accountability and reference.",
+          "The agenda-setting process usually involves input from members and is finalized prior to the meetings.",
+          "If a member cannot attend, they may send a representative or provide their input in advance, depending on university rules.",
+          "Decisions made in Academic Council meetings are typically documented and communicated to the university community.",
+          "Transparency is maintained by ensuring that meeting minutes are accessible for review and that decisions are communicated openly."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  

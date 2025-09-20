@@ -1,0 +1,116 @@
+{
+    "intents": [
+      {
+        "tag": "advanced_studies_research_overview",
+        "patterns": [
+          "What is the Advanced Studies and Research Board?",
+          "Can you explain the role of the Advanced Studies and Research Board?",
+          "What does the Advanced Studies and Research Board do?",
+          "What are the responsibilities of the Advanced Studies and Research Board?",
+          "How does the Advanced Studies and Research Board function?",
+          "What is the importance of the Advanced Studies and Research Board?",
+          "How does the board promote research in the university?",
+          "What kind of research degrees does the board consider?",
+          "What areas does the Advanced Studies and Research Board focus on?",
+          "How does the board report to university authorities?"
+        ],
+        "responses": [
+          "The Advanced Studies and Research Board advises university authorities on promoting advanced studies, publications, and research.",
+          "The role of the Advanced Studies and Research Board is to enhance the quality and scope of research and advanced studies in the university.",
+          "The board is responsible for considering and reporting on the institution of research degrees within the university.",
+          "The responsibilities of the board include advising on research initiatives, evaluating research programs, and recommending policies for advanced studies.",
+          "The Advanced Studies and Research Board functions by providing insights and recommendations to enhance the university's research environment.",
+          "The importance of the board lies in its ability to guide the university in achieving excellence in research and academic pursuits.",
+          "The board promotes research by developing policies, encouraging collaborations, and providing resources for faculty and students.",
+          "The board considers various types of research degrees, including master's and doctoral programs, to be instituted in the university.",
+          "The focus areas of the Advanced Studies and Research Board include research methodologies, academic publications, and advanced study programs.",
+          "The board reports to university authorities through formal meetings, documentation, and presentations on research developments."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "advanced_studies_research_structure",
+        "patterns": [
+          "What is the composition of the Advanced Studies and Research Board?",
+          "Who are the members of the Advanced Studies and Research Board?",
+          "Can you list the members of the Advanced Studies and Research Board?",
+          "What positions are included in the Advanced Studies and Research Board?",
+          "Who is the chairman of the Advanced Studies and Research Board?",
+          "How many members are there in the Advanced Studies and Research Board?",
+          "What roles do members of the Advanced Studies and Research Board play?",
+          "Are there external experts in the Advanced Studies and Research Board?",
+          "Who serves as the secretary for the Advanced Studies and Research Board?",
+          "What is the role of the Deans in the Advanced Studies and Research Board?"
+        ],
+        "responses": [
+          "The Advanced Studies and Research Board consists of the Vice Chancellor as the Chairman, Deans, Directors of Divisions and Institutes, Principals of Affiliated Colleges, appointed University Professors, University teachers, and experts from other institutions.",
+          "Members of the Advanced Studies and Research Board include the Vice Chancellor, Deans, Directors, college Principals, University Professors, University teachers, and external experts.",
+          "The composition of the board includes various educational leaders, faculty members, and experts, enhancing its ability to advise on advanced studies and research.",
+          "The chairman of the Advanced Studies and Research Board is the Vice Chancellor, who oversees the board's activities and meetings.",
+          "There are multiple members in the Advanced Studies and Research Board, including both internal faculty and external experts.",
+          "Each member contributes to discussions on advanced studies and research, bringing expertise from their respective fields.",
+          "Yes, the board includes five experts from sister institutions nominated by the Syndicate to provide additional insights.",
+          "The Director of Advanced Studies serves as the secretary for the board, responsible for documentation and coordination.",
+          "Deans play a critical role in the board by representing their faculties and contributing to decisions related to advanced studies and research."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "advanced_studies_research_process",
+        "patterns": [
+          "How does the Advanced Studies and Research Board process proposals?",
+          "What is the proposal review process in the Advanced Studies and Research Board?",
+          "How are research degrees evaluated by the board?",
+          "What criteria does the Advanced Studies and Research Board use for approval?",
+          "How does the board decide on research publications?",
+          "What happens after the board considers a research proposal?",
+          "How long does it take for the board to review proposals?",
+          "Can faculty appeal decisions made by the Advanced Studies and Research Board?",
+          "What role does the Syndicate play in the Advanced Studies and Research Board process?",
+          "Are the board's decisions on research degrees final?"
+        ],
+        "responses": [
+          "The Advanced Studies and Research Board processes proposals by reviewing them against established criteria and evaluating their alignment with university standards.",
+          "The proposal review process involves careful examination of research objectives, methodologies, and expected outcomes.",
+          "Research degrees are evaluated based on academic rigor, relevance to current research trends, and potential contributions to knowledge.",
+          "The board uses criteria such as feasibility, significance, and alignment with the university's mission when approving proposals.",
+          "The board decides on research publications by assessing their quality, relevance, and impact on the academic community.",
+          "After considering a research proposal, the board may recommend approval, request revisions, or reject it based on its findings.",
+          "The review duration varies based on the complexity of proposals, but the board aims to process them in a timely manner.",
+          "Faculty may have the right to appeal decisions made by the board through established university channels.",
+          "The Syndicate plays a crucial role by reviewing recommendations from the Advanced Studies and Research Board and making final decisions.",
+          "Yes, decisions made by the Advanced Studies and Research Board regarding research degrees are generally considered final unless there are grounds for appeal."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "advanced_studies_research_meetings",
+        "patterns": [
+          "How often does the Advanced Studies and Research Board meet?",
+          "What is the procedure for Advanced Studies and Research Board meetings?",
+          "Who presides over the Advanced Studies and Research Board meetings?",
+          "What topics are discussed in Advanced Studies and Research Board meetings?",
+          "Can anyone attend the Advanced Studies and Research Board meetings?",
+          "How are meeting minutes recorded in the Advanced Studies and Research Board?",
+          "What is the agenda-setting process for Advanced Studies and Research Board meetings?",
+          "What happens if a member cannot attend an Advanced Studies and Research Board meeting?",
+          "Are the decisions made in Advanced Studies and Research Board meetings public?",
+          "How is transparency maintained in Advanced Studies and Research Board meetings?"
+        ],
+        "responses": [
+          "The Advanced Studies and Research Board meets as needed, often aligning with key academic deadlines and proposal submissions.",
+          "The procedure for meetings includes setting an agenda, discussing proposals and initiatives, and documenting minutes for future reference.",
+          "The Vice Chancellor typically presides over the Advanced Studies and Research Board meetings, guiding discussions and decisions.",
+          "Topics discussed may include research proposals, advancements in academic programs, and strategies for promoting research.",
+          "Generally, Advanced Studies and Research Board meetings are not open to the public, but relevant university staff may be invited.",
+          "Meeting minutes are recorded by the Director of Advanced Studies or designated administrative staff to ensure accurate documentation.",
+          "The agenda is typically set in advance, focusing on key proposals and matters needing discussion and resolution.",
+          "If a member cannot attend, they may submit their input in advance or send a representative if permitted by university rules.",
+          "Decisions made in Advanced Studies and Research Board meetings are typically documented and communicated internally but may not be publicly available.",
+          "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  

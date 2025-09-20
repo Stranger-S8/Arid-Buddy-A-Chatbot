@@ -1,0 +1,115 @@
+{
+    "intents": [
+      {
+        "tag": "selection_board_overview",
+        "patterns": [
+          "What is the Selection Board?",
+          "Can you explain the role of the Selection Board?",
+          "What does the Selection Board do?",
+          "What are the responsibilities of the Selection Board?",
+          "How does the Selection Board function?",
+          "Why is the Selection Board established?",
+          "What is the importance of the Selection Board?",
+          "How does the Selection Board recommend candidates?",
+          "What process does the Selection Board follow for applications?",
+          "What types of appointments does the Selection Board handle?"
+        ],
+        "responses": [
+          "The Selection Board considers applications received in response to advertisements and recommends suitable candidates for various appointments to the Syndicate.",
+          "The role of the Selection Board is to evaluate candidates and ensure that only qualified individuals are recommended for university positions.",
+          "The Selection Board's responsibilities include reviewing applications, conducting interviews, and making recommendations for appointments.",
+          "The Selection Board functions by analyzing applications and deliberating on candidate suitability based on predefined criteria.",
+          "The Selection Board was established to maintain high standards in the hiring process and ensure that the best candidates are selected.",
+          "The importance of the Selection Board lies in its ability to uphold the quality and integrity of university appointments.",
+          "The Selection Board recommends candidates to the Syndicate based on their qualifications, experience, and fit for the position.",
+          "The process involves receiving applications, shortlisting candidates, conducting interviews, and recommending the best fits for the roles.",
+          "The Selection Board handles appointments for various positions within the university, including faculty and administrative roles."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "selection_board_structure",
+        "patterns": [
+          "What is the composition of the Selection Board?",
+          "Who are the members of the Selection Board?",
+          "Can you list the members of the Selection Board?",
+          "What positions are included in the Selection Board?",
+          "Who is the chairman of the Selection Board?",
+          "How many members are there in the Selection Board?",
+          "What roles do members of the Selection Board play?",
+          "Who represents the Punjab Public Service Commission in the Selection Board?",
+          "What is the role of the Registrar in the Selection Board?",
+          "Are there any external members in the Selection Board?"
+        ],
+        "responses": [
+          "The Selection Board consists of the Vice Chancellor as the Chairman, Chief Justice of Lahore High Court (or a nominated judge), Chairperson of the Punjab Public Service Commission (or a nominated member), Dean of the relevant faculty, Chairperson of the relevant Teaching Department, one Syndicate member, two eminent persons, and the Registrar.",
+          "Members of the Selection Board include the Vice Chancellor, a judge from Lahore High Court, a member of the Punjab Public Service Commission, the Dean, Chairperson of the Teaching Department, and other appointed members.",
+          "The Selection Board includes various members such as the Vice Chancellor, judges, public service members, Deans, and others.",
+          "The chairman of the Selection Board is the Vice Chancellor, who leads the discussions and decision-making.",
+          "There are multiple members in the Selection Board, including legal representatives, academic leaders, and external experts.",
+          "Each member plays a unique role in evaluating candidates, providing insights based on their expertise and position.",
+          "The Chairperson of the Punjab Public Service Commission or a nominated member represents the commission in the Selection Board.",
+          "The Registrar serves as a member of the Selection Board, contributing to administrative support and documentation.",
+          "Yes, there are external members in the Selection Board, specifically the two eminent persons appointed by the Syndicate."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "selection_board_process",
+        "patterns": [
+          "How does the Selection Board process applications?",
+          "What is the application review process in the Selection Board?",
+          "How are candidates shortlisted by the Selection Board?",
+          "What criteria does the Selection Board use for selection?",
+          "How does the Selection Board conduct interviews?",
+          "What happens after the Selection Board recommends candidates?",
+          "Can candidates appeal the decisions of the Selection Board?",
+          "What role does the Syndicate play in the Selection Board process?",
+          "How long does the selection process take?",
+          "Are the decisions of the Selection Board final?"
+        ],
+        "responses": [
+          "The Selection Board processes applications by reviewing them against established criteria and evaluating candidates' qualifications.",
+          "The application review process involves examining submitted documents and determining which candidates meet the necessary qualifications.",
+          "Candidates are shortlisted based on their qualifications, experience, and alignment with the position requirements.",
+          "The Selection Board uses various criteria, including educational background, professional experience, and fit for the role.",
+          "Interviews are conducted by the Selection Board to assess candidates' suitability through direct interaction and questioning.",
+          "After recommending candidates, the Selection Board submits its findings to the Syndicate for final approval of appointments.",
+          "Candidates may have the right to appeal the Selection Board's decisions through established university channels.",
+          "The Syndicate plays a crucial role by reviewing the Selection Board's recommendations and making final decisions on appointments.",
+          "The selection process duration can vary depending on the number of applications and the complexity of the positions being filled.",
+          "Yes, decisions made by the Selection Board are generally considered final unless there are grounds for appeal as per university policy."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "selection_board_meetings",
+        "patterns": [
+          "How often does the Selection Board meet?",
+          "What is the procedure for Selection Board meetings?",
+          "Who presides over the Selection Board meetings?",
+          "What topics are discussed in Selection Board meetings?",
+          "Can anyone attend the Selection Board meetings?",
+          "How are meeting minutes recorded in the Selection Board?",
+          "What is the agenda-setting process for Selection Board meetings?",
+          "What happens if a member cannot attend a Selection Board meeting?",
+          "Are the decisions made in Selection Board meetings public?",
+          "How is transparency maintained in Selection Board meetings?"
+        ],
+        "responses": [
+          "The Selection Board typically meets as needed to review applications and make recommendations for appointments.",
+          "The procedure for Selection Board meetings includes setting an agenda, discussing candidate applications, and recording minutes for documentation.",
+          "The Vice Chancellor presides over the Selection Board meetings, leading discussions and guiding the decision-making process.",
+          "Topics discussed include application reviews, candidate evaluations, and recommendations for various appointments.",
+          "Generally, Selection Board meetings are not open to the public, but relevant university staff may be invited as needed.",
+          "Meeting minutes are recorded by the Registrar or designated administrative staff to ensure accurate documentation.",
+          "The agenda is set in advance, often including the applications to be reviewed and any relevant policies or updates.",
+          "If a member cannot attend, they may provide input in advance or send a representative if permitted by university rules.",
+          "Decisions made in Selection Board meetings are typically documented and communicated to relevant parties but may not be publicly available.",
+          "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  

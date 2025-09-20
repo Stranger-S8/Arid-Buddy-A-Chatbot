@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "Vice_Chancellor_Office",
+      "patterns": [
+        "Who is the Vice Chancellor of PMAS-Arid Agriculture University?",
+        "Who is leading PMAS-Arid Agriculture University?",
+        "What is the Vice Chancellor's name?",
+        "What are the Vice Chancellor's responsibilities?",
+        "Contact details for the Vice Chancellor",
+        "Who is Prof. Dr. Muhammad Naeem?",
+        "Tell me about Prof. Dr. Muhammad Naeem",
+        "How do I contact the Vice Chancellor?",
+        "Email address of the Vice Chancellor?",
+        "Phone number for Vice Chancellor office",
+        "Who is Mr. Muhammad Rafique?",
+        "Contact of PS to the Vice Chancellor",
+        "Who is the PS to the Vice Chancellor?",
+        "Fax number for the Vice Chancellor office",
+        "Deputy Registrar contact details",
+        "Who is Mr. Mustafa?"
+      ],
+      "responses": [
+        "Prof. Dr. Muhammad Naeem is the Vice Chancellor of PMAS-Arid Agriculture University, Rawalpindi.",
+        "The Vice Chancellor of PMAS-Arid Agriculture University is Prof. Dr. Muhammad Naeem.",
+        "You can contact Prof. Dr. Muhammad Naeem at vc@uaar.edu.pk.",
+        "Vice Chancellor’s contact: \n- Email: vc@uaar.edu.pk \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+        "Mr. Muhammad Rafique is the PS to the Vice Chancellor. Contact details: \n- Phone: +92-51-9292104 \n- Fax: +92-51-9292107.",
+        "The Deputy Registrar is Mr. Mustafa. Contact details: \n- Phone: +92-51-9062102 \n- Email: mustafa@uaar.edu.pk."
+      ]
+    },
+    {
+      "tag": "Vice_Chancellor_Message",
+      "patterns": [
+        "What is the message from the Vice Chancellor?",
+        "Can I read the Vice Chancellor's message?",
+        "What is the Vice Chancellor's vision?",
+        "Vice Chancellor's welcome message",
+        "Message from Prof. Dr. Muhammad Naeem"
+      ],
+      "responses": [
+        "The Vice Chancellor's message: 'Welcome to PMAS-Arid Agriculture University. Our main objective is to produce high-quality Agricultural Scientists and advance our farmer community by sharing proven ideas and experiences.'"
+      ]
+    },
+    {
+      "tag": "Pro_Vice_Chancellor_Office",
+      "patterns": [
+        "Who is the Pro Vice Chancellor of PMAS-Arid Agriculture University?",
+        "What are the contact details for the Pro Vice Chancellor?",
+        "How do I contact the Pro Vice Chancellor?",
+        "Phone number of Pro Vice Chancellor's office",
+        "Who is the Pro Vice Chancellor at Arid University?",
+        "What is the Pro Vice Chancellor's email address?",
+        "Fax number for the Pro Vice Chancellor",
+        "Who is the PA to the Pro Vice Chancellor?",
+        "Contact details for the PA to the Pro Vice Chancellor",
+        "Phone number of PA to the Pro Vice Chancellor",
+        "Email of PA to Pro Vice Chancellor",
+        "How to contact Muhammad Naeem?",
+        "What is the email address for the Pro Vice Chancellor?"
+      ],
+      "responses": [
+        "The Pro Vice Chancellor's office can be contacted at the following details: \n- Phone: +92-51-9292215 \n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+        "The Pro Vice Chancellor’s office phone number is +92-51-9292215. No fax is available at the moment.",
+        "To reach the Pro Vice Chancellor, you can email at either naeem18ap@yahoo.co.uk or muhammad.naeem@uaar.edu.pk.",
+        "The PA to the Pro Vice Chancellor is Mr. Aurangzeb. You can contact him via email at maurangzeb@uaar.edu.pk or by phone at +92-51-9292215.",
+        "Mr. Aurangzeb is the Personal Assistant to the Pro Vice Chancellor. His contact details are: \n- Phone: +92-51-9292215 \n- Email: maurangzeb@uaar.edu.pk."
+      ]
+    },
+    {
+      "tag": "University_Programs",
+      "patterns": [
+        "What programs does the university offer?",
+        "What degree programs are available?",
+        "Degree programs at PMAS-Arid Agriculture University",
+        "What courses does PMAS-Arid Agriculture University provide?",
+        "Can I study computer science at the university?",
+        "What fields of study are available?"
+      ],
+      "responses": [
+        "PMAS-Arid Agriculture University offers degree programs in Agricultural Sciences, Basic and Natural Sciences, Social Sciences, Humanities, Management Sciences, Computer Sciences, and Information Technology.",
+        "You can pursue degrees at undergraduate, graduate, and doctoral levels in a variety of fields including agronomy, horticulture, veterinary sciences, microbiology, and information technology."
+      ]
+    }
+  ]
+}

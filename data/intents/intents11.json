@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "Pro_Vice_Chancellor_Office",
+      "patterns": [
+        "Who is the Pro Vice Chancellor of PMAS-Arid Agriculture University?",
+        "Can I get Pro Vice Chancellor's contact details?",
+        "What is the phone number of the Pro Vice Chancellor?",
+        "Pro Vice Chancellor email address?",
+        "How do I contact Prof. Dr. Muhammad Naeem?",
+        "Who is the PA to Pro Vice Chancellor?",
+        "Contact details for PA to Pro Vice Chancellor?",
+        "What is Muhammad Aurangzeb's email?",
+        "Who is Muhammad Aurangzeb and what does he do?",
+        "Pro Vice Chancellor's office contact information",
+        "How to reach the Pro Vice Chancellor's office?"
+      ],
+      "responses": [
+        "Prof. Dr. Muhammad Naeem is the Pro Vice Chancellor of PMAS-Arid Agriculture University. His contact details are:\n- Phone: 051-9292215\n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+        "You can reach the Pro Vice Chancellor's office at:\n- Phone: 051-9292215\n- Email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+        "The Pro Vice Chancellor, Prof. Dr. Muhammad Naeem, is available for contact through his office phone at 051-9292215 and email: naeem18ap@yahoo.co.uk, muhammad.naeem@uaar.edu.pk.",
+        "Muhammad Aurangzeb serves as the PA to the Pro Vice Chancellor. You can contact him at:\n- Phone: +92-51-9292215\n- Email: maurangzeb@uaar.edu.pk.",
+        "If you need assistance with the Pro Vice Chancellor's office, Muhammad Aurangzeb, PA to the Pro Vice Chancellor, is available at +92-51-9292215 or via email at maurangzeb@uaar.edu.pk."
+      ]
+    },
+    {
+      "tag": "Registrar_Office",
+      "patterns": [
+        "Who is the Registrar at PMAS-Arid Agriculture University?",
+        "What are the Registrar's contact details?",
+        "How to contact Mr. Muhammad Aqeel Sultan?",
+        "What is the phone number of Registrar Mr. Muhammad Aqeel Sultan?",
+        "Registrar's email?",
+        "How to contact Muhammad Aqeel Sultan?",
+        "Who is Dr. Nazia Rafiq?",
+        "What is the role of Dr. Nazia Rafiq?",
+        "Deputy Registrar contact details?",
+        "Phone number of Dr. Nazia Rafiq?",
+        "Who is Rana Zahid Mahmood?",
+        "What does Rana Zahid Mahmood do?",
+        "Contact details for Deputy Registrar Rana Zahid Mahmood?",
+        "Who is Mirza Haseeb Baig?",
+        "What is the role of Mirza Haseeb Baig?",
+        "Contact information for Deputy Registrar (Legal) Mirza Haseeb Baig?",
+        "Who is Mr. Muhammad Shabbir?",
+        "Assistant Registrar contact details?",
+        "How to contact Mr. Muhammad Amjad Khan?",
+        "What is the email address for Muhammad Amjad Khan?",
+        "Who is Sultan Sabaktageen Nasir?",
+        "Assistant Registrar contact details?",
+        "How to contact Mr. Muhammad Irfan Anwer Khan?",
+        "Assistant Registrar Muhammad Irfan Anwer Khan contact details?",
+        "How to contact Assistant Registrar Ms. Masoomah Zainab?",
+        "Contact details for Ms. Masoomah Zainab?"
+      ],
+      "responses": [
+        "Mr. Muhammad Aqeel Sultan is the Registrar at PMAS-Arid Agriculture University. His contact details are:\n- Phone: +92-051-9292151, +92-51-9062112, +92-051-9292122\n- Email: registrar@uaar.edu.pk.",
+        "The Registrar office can be reached through:\n- Phone: +92-051-9292151, +92-51-9062112, +92-051-9292122\n- Fax: +92-051-9292124\n- Email: registrar@uaar.edu.pk.",
+        "Dr. Nazia Rafiq serves as the Deputy Registrar-I. Her contact details are:\n- Phone: +92-51-9292113\n- Email: naziarafiq@uaar.edu.pk, naziarafiq@gmail.com.",
+        "Rana Zahid Mahmood is a Deputy Registrar. His contact details are:\n- Phone: +92-051-9062450\n- Email: ranazahid79@yahoo.com.",
+        "Mirza Haseeb Baig is the Deputy Registrar (Legal) and Public Information Officer. His qualification is L.L.B (Hons) Sharia & Law. You can contact him at haseeb313@uaar.edu.pk.",
+        "Mr. Muhammad Shabbir is an Assistant Registrar. His contact details are:\n- Phone: 051-9292122\n- Email: mshabbir@uaar.edu.pk.",
+        "Mr. Muhammad Amjad Khan is another Assistant Registrar. You can reach him at amjad.khan@uaar.edu.pk.",
+        "Sultan Sabaktageen Nasir is an Assistant Registrar, though his contact details are not provided.",
+        "Mr. Muhammad Irfan Anwer Khan is also an Assistant Registrar. His contact details are:\n- Phone: 051-9292151\n- Email: ranairfan@uaar.edu.pk.",
+        "Ms. Masoomah Zainab is an Assistant Registrar. Her email is masoomahzainab@uaar.edu.pk."
+      ]
+    },
+    {
+      "tag": "Registrar_Office_Staff",
+      "patterns": [
+        "Who are the staff members in the Registrar's office?",
+        "List of staff working in the Registrar's office?",
+        "Who is the Deputy Registrar at PMAS-Arid Agriculture University?",
+        "Can you list all the Assistant Registrars?",
+        "Who handles legal matters in the Registrar's office?",
+        "Who is responsible for public information in the Registrar's office?",
+        "What is the role of Deputy Registrar (Legal)?",
+        "How many Deputy Registrars are there?",
+        "Who works in legal and public information roles in the university?"
+      ],
+      "responses": [
+        "The staff in the Registrar's office include:\n- Mr. Muhammad Aqeel Sultan (Registrar)\n- Dr. Nazia Rafiq (Deputy Registrar-I)\n- Rana Zahid Mahmood (Deputy Registrar)\n- Mirza Haseeb Baig (Deputy Registrar, Legal/Public Information Officer)\n- Mr. Muhammad Shabbir (Assistant Registrar)\n- Mr. Muhammad Amjad Khan (Assistant Registrar)\n- Sultan Sabaktageen Nasir (Assistant Registrar)\n- Mr. Muhammad Irfan Anwer Khan (Assistant Registrar)\n- Ms. Masoomah Zainab (Assistant Registrar).",
+        "The Registrar's office consists of several staff members, including Mr. Muhammad Aqeel Sultan as Registrar, and Deputy Registrars like Dr. Nazia Rafiq, Rana Zahid Mahmood, and Mirza Haseeb Baig who handles legal and public information duties.",
+        "The university's Registrar office has multiple Deputy and Assistant Registrars. Deputy Registrars include Dr. Nazia Rafiq, Rana Zahid Mahmood, and Mirza Haseeb Baig (Legal/Public Information). Assistant Registrars include Mr. Muhammad Shabbir, Mr. Muhammad Amjad Khan, Sultan Sabaktageen Nasir, Mr. Muhammad Irfan Anwer Khan, and Ms. Masoomah Zainab.",
+        "Mirza Haseeb Baig is the Deputy Registrar responsible for legal matters and also serves as the Public Information Officer at PMAS-Arid Agriculture University."
+      ]
+    },
+    {
+      "tag": "Pro_Vice_Chancellor_Office_Overview",
+      "patterns": [
+        "What is the Pro Vice Chancellor's role at PMAS-Arid Agriculture University?",
+        "Can you explain the Pro Vice Chancellor's office?",
+        "What responsibilities does the Pro Vice Chancellor have?",
+        "Who works in the Pro Vice Chancellor's office?",
+        "What is the Pro Vice Chancellor's job?"
+      ],
+      "responses": [
+        "The Pro Vice Chancellor, Prof. Dr. Muhammad Naeem, plays a crucial role at PMAS-Arid Agriculture University by assisting the Vice Chancellor in executing academic and administrative duties. The Pro Vice Chancellor works to ensure the smooth functioning of academic departments and the university's operations.",
+        "Prof. Dr. Muhammad Naeem is the Pro Vice Chancellor at PMAS-Arid Agriculture University, and his office is assisted by Muhammad Aurangzeb, who is the PA to the Pro Vice Chancellor. Together, they handle a variety of administrative tasks to support the university's mission."
+      ]
+    }
+  ]
+}

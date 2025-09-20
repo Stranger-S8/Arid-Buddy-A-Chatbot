@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "Treasurer_Office",
+      "patterns": [
+        "Who is the Treasurer at PMAS-Arid Agriculture University?",
+        "What are the Treasurer's contact details?",
+        "How to contact Ms. Marriyam Haider Bokhari?",
+        "What is the email address of the Treasurer?",
+        "What is the phone number of the Treasurer?",
+        "Can I have the contact details for the Treasurer's office?",
+        "Who is Syeda Iram Umer?",
+        "What is Syeda Iram Umer's role in the Treasurer's office?",
+        "Who is Abdul Wahid?",
+        "What are Abdul Wahid's contact details?",
+        "Who is Raja Afzaal Mehdi?",
+        "What are Raja Afzaal Mehdi's contact details?",
+        "Who is Muhammad Asad?",
+        "What are Muhammad Asad's contact details?",
+        "What is the role of Mr. Zeeshan Ahmad Khan in the Treasurer's office?",
+        "Can I have the contact details for Mr. Zeeshan Ahmad Khan?",
+        "Who is Zaeem Amjad Gadhok?",
+        "Who is Saad Ahmed Mir?",
+        "What are Saad Ahmed Mir's contact details?",
+        "How can I contact Mehr Altaf Hussain?",
+        "What is Mehr Altaf Hussain's role?",
+        "Who is Aqeel Ahmed?",
+        "What are Aqeel Ahmed's contact details?",
+        "Who is Mr. Muhammad Kashif?",
+        "Can you provide details of the Assistant Registrars in the Treasurer's office?",
+        "How many people are working in the Treasurer's office?",
+        "What does the Treasurer's office handle?",
+        "Can I get the contact information for the Treasurer office staff?",
+        "Who should I contact for financial inquiries at the university?",
+        "How can I reach out to the Treasurer's office for assistance?"
+      ],
+      "responses": [
+        "Ms. Marriyam Haider Bokhari is the Treasurer at PMAS-Arid Agriculture University. Her contact details are:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk.",
+        "The Treasurer's Office can be reached via:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk. For more inquiries, feel free to reach out!",
+        "Syeda Iram Umer is the Director in the Treasurer's office, overseeing the financial operations.",
+        "Mr. Abdul Wahid is the Deputy Registrar (TR) at PMAS-Arid Agriculture University. You can contact him at:\n- Phone: +92-51-9062120\n- Email: wahid@uaar.edu.pk.",
+        "Raja Afzaal Mehdi serves as a Deputy Registrar (TR). His contact details are:\n- Phone: +92-51-9062242\n- Email: raja.afzaal@uaar.edu.pk.",
+        "Mr. Muhammad Asad is a Deputy Registrar at the Treasurer's office. His contact information is:\n- Phone: +92-51-9062128\n- Email: mrmasad@hotmail.com.",
+        "Mr. Zeeshan Ahmad Khan is a Deputy Registrar in the Treasurer's office. For inquiries, please contact the office directly.",
+        "Zaeem Amjad Gadhok is an Assistant Registrar in the Treasurer's office. You can reach out to the Treasurer’s office for further details.",
+        "Saad Ahmed Mir is an Assistant Registrar. You can contact him at:\n- Email: saadmir@uaar.edu.pk.",
+        "Mehr Altaf Hussain serves as an Assistant Registrar in the Treasurer's office. For inquiries, please reach out to the Treasurer's office.",
+        "Aqeel Ahmed is the Assistant Accounts Officer. His contact details are:\n- Phone: +92-300-9542066\n- Email: aqilqazi@uaar.edu.pk.",
+        "Mr. Muhammad Kashif holds the position of Assistant Registrar and Assistant Accounts Officer in the Treasurer's office. You can inquire about his responsibilities at the office.",
+        "The Treasurer's office includes various roles, including the Treasurer, Deputy Registrars, Assistant Registrars, and the Assistant Accounts Officer, ensuring smooth financial management.",
+        "For financial inquiries at PMAS-Arid Agriculture University, you can contact the Treasurer’s office at:\n- Phone: +92-51-9062120\n- Email: treasurer@uaar.edu.pk.",
+        "You can reach out to the Treasurer's office for assistance with financial matters or any inquiries related to university finances.",
+        "If you need to know about financial aid or budgeting, the Treasurer's office is the right place to contact."
+      ]
+    },
+    {
+      "tag": "Treasurer_Office_Staff",
+      "patterns": [
+        "Who works in the Treasurer's office?",
+        "List of staff members in the Treasurer's office?",
+        "Can you provide the names of the team in the Treasurer's office?",
+        "Who is the Assistant Registrar in the Treasurer's office?",
+        "Who is the Assistant Accounts Officer?",
+        "List the Deputy Registrars in the Treasurer's office?",
+        "What positions are available in the Treasurer's office?",
+        "Who is responsible for financial management at PMAS-Arid Agriculture University?"
+      ],
+      "responses": [
+        "The Treasurer's office staff includes:\n- Ms. Marriyam Haider Bokhari (Treasurer)\n- Syeda Iram Umer (Director)\n- Mr. Abdul Wahid (Deputy Registrar)\n- Raja Afzaal Mehdi (Deputy Registrar)\n- Mr. Muhammad Asad (Deputy Registrar)\n- Mr. Zeeshan Ahmad Khan (Deputy Registrar)\n- Mr. Zaeem Amjad Gadhok (Assistant Registrar)\n- Mr. Saad Ahmed Mir (Assistant Registrar)\n- Mr. Mehr Altaf Hussain (Assistant Registrar)\n- Mr. Aqeel Ahmed (Assistant Accounts Officer)\n- Mr. Muhammad Kashif (Assistant Registrar/Assistant Accounts Officer).",
+        "Staff members working in the Treasurer's office include:\n- Treasurer: Ms. Marriyam Haider Bokhari\n- Director: Syeda Iram Umer\n- Deputy Registrars: Mr. Abdul Wahid, Raja Afzaal Mehdi, Mr. Muhammad Asad, Mr. Zeeshan Ahmad Khan\n- Assistant Registrars: Mr. Zaeem Amjad Gadhok, Mr. Saad Ahmed Mir, Mr. Mehr Altaf Hussain\n- Assistant Accounts Officer: Mr. Aqeel Ahmed, Mr. Muhammad Kashif.",
+        "In the Treasurer's office, the roles are distributed among the Treasurer, Directors, Deputy Registrars, and Assistant Registrars, all contributing to financial management."
+      ]
+    },
+    {
+      "tag": "Treasurer_Office_Overview",
+      "patterns": [
+        "What is the Treasurer's role at PMAS-Arid Agriculture University?",
+        "Can you explain the Treasurer's office?",
+        "What does the Treasurer's office do?",
+        "What are the responsibilities of the Treasurer at PMAS?",
+        "How is financial management handled at the university?",
+        "Can you give an overview of the Treasurer's office?"
+      ],
+      "responses": [
+        "The Treasurer's office at PMAS-Arid Agriculture University is responsible for financial management, which includes budgeting, financial reporting, and overseeing all accounts. Ms. Marriyam Haider Bokhari leads the office, ensuring the financial operations align with the university's goals.",
+        "The Treasurer's office plays a crucial role in managing the university's finances. It is dedicated to overseeing budget allocations, monitoring expenditures, and providing financial guidance to other departments. Under the leadership of Ms. Marriyam Haider Bokhari, the office ensures proper financial control, planning, and reporting.",
+        "The responsibilities of the Treasurer include managing the university's finances, providing financial oversight, preparing budgets, and ensuring compliance with financial regulations. The Treasurer's office also collaborates with various departments to support their financial needs and goals."
+      ]
+    }
+  ]
+}

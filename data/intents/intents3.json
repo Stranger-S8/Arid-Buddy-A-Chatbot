@@ -1,0 +1,126 @@
+{
+    "intents": [
+      {
+        "tag": "strategic_location",
+        "patterns": [
+          "Where is the university located?",
+          "Tell me about the strategic location of the university.",
+          "What is special about the location of the university?",
+          "Describe the university's location.",
+          "What are the nearby cities to the university?",
+          "How does the university's location benefit students?",
+          "What institutions are near the university?",
+          "Is the university located in a pollution-free area?",
+          "Can you tell me about the environment around the university?",
+          "What type of architecture does the university have?",
+          "What is the significance of the university's location?",
+          "How close is the university to Islamabad?",
+          "What makes the university's location unique?",
+          "Can you provide details about the location of the university?",
+          "What are the geographical advantages of the university's location?",
+          "Is the university easily accessible?",
+          "Are there any natural attractions near the university?",
+          "How does the location enhance student life?",
+          "What is the distance between the university and major cities?",
+          "What facilities are available near the university?",
+          "Can you describe the surrounding area of the university?",
+          "How does the university's location impact its programs?",
+          "What features contribute to the university's beautiful architectural design?",
+          "What type of environment surrounds the university?",
+          "Are there any notable landmarks near the university?",
+          "How does the location influence research opportunities?",
+          "What recreational activities are available near the university?"
+        ],
+        "responses": [
+          "The university is strategically located on Murree Road, near the heart of Rawalpindi and Islamabad, which are the capital cities of Pakistan.",
+          "The university building is known for its beautiful architectural design and is situated in a scenic area with a blend of old and new cultures.",
+          "The twin cities provide a pollution-free environment and are located in the picturesque Pothowar plateau, making it a serene place for education.",
+          "The university is in proximity to several key institutions, including the Pakistan Agricultural Research Council, National Agricultural Research Centre, and many more.",
+          "This central location allows the university to utilize expertise from various institutions, enhancing the quality of education and research for students.",
+          "The surrounding area features a rich blend of cultural heritage and modern development, offering a unique experience to students.",
+          "Due to its prime location, students have easy access to transportation, shopping centers, and recreational facilities.",
+          "The environment around the university is characterized by lush greenery and scenic views, creating an inspiring atmosphere for learning.",
+          "Being located close to Islamabad, the university benefits from the resources and opportunities available in the capital city.",
+          "The location fosters collaboration with nearby institutions, providing students with valuable research and internship opportunities.",
+          "The architectural design of the university reflects both contemporary and traditional influences, making it aesthetically appealing.",
+          "The proximity to natural attractions enhances students' overall experience, offering places for relaxation and exploration.",
+          "The university's location promotes a balanced lifestyle, with both academic and extracurricular activities easily accessible."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "nearby_institutions",
+        "patterns": [
+          "What institutions are near the university?",
+          "Can you list the nearby research institutions?",
+          "What major institutions are close to the university?",
+          "How does the university collaborate with other institutions?",
+          "What research facilities are located around the university?",
+          "Are there any universities near AAUR?",
+          "What are the research opportunities available with nearby institutions?",
+          "How does the university utilize its proximity to other institutions?",
+          "What organizations collaborate with the university?",
+          "Can you name some local agricultural research centers?",
+          "What institutes provide resources for the university?",
+          "How does the university's location benefit its research programs?",
+          "Are there partnerships with international institutions?",
+          "What role do nearby institutions play in student education?",
+          "How often does the university collaborate with external organizations?",
+          "What benefits do students gain from the university's location near these institutions?",
+          "What are the advantages of being near the National Institute of Health?",
+          "How does the university maintain relationships with other educational institutes?",
+          "Are there internships available through collaborations with nearby institutions?"
+        ],
+        "responses": [
+          "Nearby institutions include the Pakistan Agricultural Research Council, National Agricultural Research Centre, National Institute of Health, Pakistan Museum of Natural History, and Rawalpindi Medical College.",
+          "The university collaborates with institutions like the Poultry Research Institute, Fisheries Research and Training Institute, and the International Institute for Biological Control of the Commonwealth.",
+          "The proximity to these institutions allows for collaborative research and teaching programs that enhance educational facilities.",
+          "AAUR has signed MoUs with various organizations to facilitate joint research projects and educational exchanges.",
+          "Students benefit from internships and research opportunities provided through partnerships with nearby institutions.",
+          "The university collaborates with organizations such as the Agriculture University of Hebei, China, and ICARDA, Syria, for research activities.",
+          "By being near these institutions, AAUR can leverage additional resources and expertise for better educational outcomes.",
+          "The relationships maintained with local research centers enhance the curriculum and provide students with practical experience."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "mission_vision",
+        "patterns": [
+          "What is the mission of the university?",
+          "Tell me about the vision of the university.",
+          "What are the goals of the university?",
+          "How does the university plan to produce high-quality agricultural scientists?",
+          "What is the university's mandate?",
+          "What is the significance of the university's mission?",
+          "How does the university support its mission?",
+          "Can you elaborate on the university's vision?",
+          "What values guide the university's mission?",
+          "How does the university aim to bridge the income gap?",
+          "What educational approaches does the university use to achieve its goals?",
+          "How does research contribute to the university's mission?",
+          "What is the university's approach to community engagement?",
+          "How does the university envision its impact on the agricultural sector?",
+          "What long-term objectives does the university have?",
+          "How does the university measure its success in fulfilling its mission?",
+          "What initiatives are in place to support students in achieving these goals?",
+          "What partnerships does the university have to further its mission?"
+        ],
+        "responses": [
+          "The mission of the university is to produce high-quality agricultural scientists and establish a scientific infrastructure for teaching and research.",
+          "The university aims to focus on the development of dryland regions, minimizing the income gap between the rich and poor.",
+          "By enhancing education and research, the university seeks to contribute to the agricultural sector and improve the overall development of the country.",
+          "The university supports its mission through dedicated faculty, state-of-the-art facilities, and a research-informed curriculum.",
+          "The vision of the university is to be a leading institution in agricultural education, known for its contributions to sustainable development.",
+          "Values such as integrity, excellence, and innovation guide the university in its mission to serve the community.",
+          "The university engages with local communities to implement agricultural practices that benefit farmers and improve livelihoods.",
+          "Research plays a crucial role in the university's mission, providing insights and solutions to agricultural challenges faced in the region.",
+          "The long-term objectives include expanding research programs, enhancing academic offerings, and increasing outreach efforts.",
+          "The university measures its success through student achievements, research output, and community impact.",
+          "Initiatives such as scholarships, workshops, and internships support students in realizing their potential and contributing to the mission.",
+          "Partnerships with local and international organizations enhance the university's capabilities and broaden its impact on the agricultural sector."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  

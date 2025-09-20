@@ -1,0 +1,112 @@
+{
+    "intents": [
+      {
+        "tag": "finance_planning_overview",
+        "patterns": [
+          "What is the Finance and Planning Committee?",
+          "Can you explain the role of the Finance and Planning Committee?",
+          "What does the Finance and Planning Committee do?",
+          "What are the responsibilities of the Finance and Planning Committee?",
+          "How does the Finance and Planning Committee function?",
+          "What areas does the Finance and Planning Committee focus on?",
+          "How does the committee advise the Syndicate?",
+          "What is the importance of the Finance and Planning Committee?"
+        ],
+        "responses": [
+          "The Finance and Planning Committee advises the Syndicate on planning, development, finance, investments, and accounts related to the University.",
+          "The role of the Finance and Planning Committee includes providing insights and recommendations on financial matters and strategic planning for the University.",
+          "The committee is responsible for evaluating financial proposals, assessing investment opportunities, and overseeing budgetary matters.",
+          "The responsibilities of the committee include advising on budget allocations, monitoring financial performance, and planning for future developments.",
+          "The Finance and Planning Committee functions by analyzing financial data, preparing reports, and presenting recommendations to the Syndicate.",
+          "The committee focuses on areas such as financial management, resource allocation, and investment strategies for the University.",
+          "The committee advises the Syndicate by presenting financial assessments and strategic plans to support effective decision-making.",
+          "The importance of the committee lies in its role in ensuring the University's financial health and strategic growth."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "finance_planning_structure",
+        "patterns": [
+          "What is the composition of the Finance and Planning Committee?",
+          "Who are the members of the Finance and Planning Committee?",
+          "Can you list the members of the Finance and Planning Committee?",
+          "What positions are included in the Finance and Planning Committee?",
+          "Who is the chairman of the Finance and Planning Committee?",
+          "How many members are there in the Finance and Planning Committee?",
+          "What roles do members of the Finance and Planning Committee play?",
+          "Are there external nominees in the Finance and Planning Committee?",
+          "Who serves as the secretary for the Finance and Planning Committee?",
+          "What is the role of the Treasurer in the Finance and Planning Committee?"
+        ],
+        "responses": [
+          "The Finance and Planning Committee consists of the Vice Chancellor as the Chairman, a member of the Syndicate, two members from the Academic Council, two nominees of the Chancellor, the Registrar, and the Treasurer.",
+          "Members of the Finance and Planning Committee include the Vice Chancellor, Dr. Farah Naz (Syndicate member), Prof. Dr. Fayyaz-ul-Hassan, Dr. Javed Asad, Deputy Secretaries from Agriculture and Finance Departments, the Registrar, and the Treasurer.",
+          "The composition of the committee includes various university leaders and external nominees, enhancing its capability to address financial and planning matters.",
+          "The chairman of the Finance and Planning Committee is the Vice Chancellor, who oversees committee activities and meetings.",
+          "There are multiple members in the Finance and Planning Committee, ensuring a diverse representation of interests and expertise.",
+          "Each member contributes insights from their respective areas to inform the committee's decisions on financial matters.",
+          "Yes, the committee includes external nominees from the Chancellor, representing both the Agriculture Department and the Finance Department.",
+          "The Treasurer serves as the secretary for the committee, responsible for documentation and coordination of meetings.",
+          "The Treasurer plays a crucial role in financial management and reporting within the Finance and Planning Committee."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "finance_planning_process",
+        "patterns": [
+          "How does the Finance and Planning Committee process proposals?",
+          "What is the proposal review process in the Finance and Planning Committee?",
+          "How are financial investments evaluated by the committee?",
+          "What criteria does the Finance and Planning Committee use for approval?",
+          "How does the committee decide on budget allocations?",
+          "What happens after the committee considers a financial proposal?",
+          "How long does it take for the committee to review proposals?",
+          "Can faculty appeal decisions made by the Finance and Planning Committee?",
+          "What role does the Syndicate play in the Finance and Planning Committee process?",
+          "Are the committee's decisions on financial matters final?"
+        ],
+        "responses": [
+          "The Finance and Planning Committee processes proposals by reviewing them against established criteria and evaluating their alignment with the university's strategic goals.",
+          "The proposal review process involves detailed analysis of financial implications, projected outcomes, and alignment with university priorities.",
+          "Financial investments are evaluated based on feasibility, potential returns, and alignment with the university's mission.",
+          "The committee uses criteria such as cost-effectiveness, strategic alignment, and potential impact when approving financial proposals.",
+          "The committee decides on budget allocations by assessing departmental needs, strategic initiatives, and available resources.",
+          "After considering a financial proposal, the committee may recommend approval, request modifications, or reject it based on its findings.",
+          "The review duration varies based on the complexity of proposals, but the committee aims to process them efficiently.",
+          "Faculty may have the right to appeal decisions made by the committee through established university channels.",
+          "The Syndicate plays a crucial role by reviewing recommendations from the Finance and Planning Committee and making final decisions.",
+          "Yes, decisions made by the Finance and Planning Committee regarding financial matters are generally considered final unless there are grounds for appeal."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "finance_planning_meetings",
+        "patterns": [
+          "How often does the Finance and Planning Committee meet?",
+          "What is the procedure for Finance and Planning Committee meetings?",
+          "Who presides over the Finance and Planning Committee meetings?",
+          "What topics are discussed in Finance and Planning Committee meetings?",
+          "Can anyone attend the Finance and Planning Committee meetings?",
+          "How are meeting minutes recorded in the Finance and Planning Committee?",
+          "What is the agenda-setting process for Finance and Planning Committee meetings?",
+          "What happens if a member cannot attend a Finance and Planning Committee meeting?",
+          "Are the decisions made in Finance and Planning Committee meetings public?",
+          "How is transparency maintained in Finance and Planning Committee meetings?"
+        ],
+        "responses": [
+          "The Finance and Planning Committee meets regularly, often aligning with key budgetary deadlines and planning cycles.",
+          "The procedure for meetings includes setting an agenda, discussing financial proposals, and documenting minutes for future reference.",
+          "The Vice Chancellor typically presides over the Finance and Planning Committee meetings, guiding discussions and decisions.",
+          "Topics discussed may include budget proposals, investment strategies, financial performance reviews, and strategic planning initiatives.",
+          "Generally, Finance and Planning Committee meetings are not open to the public, but relevant university staff may be invited.",
+          "Meeting minutes are recorded by the Treasurer or designated administrative staff to ensure accurate documentation.",
+          "The agenda is typically set in advance, focusing on key financial matters and proposals needing discussion and resolution.",
+          "If a member cannot attend, they may submit their input in advance or send a representative if permitted by university rules.",
+          "Decisions made in Finance and Planning Committee meetings are typically documented and communicated internally but may not be publicly available.",
+          "Transparency is maintained by ensuring that meeting minutes are accessible for internal review and decision documentation."
+        ],
+        "context": [""]
+      }
+    ]
+  }
+  
